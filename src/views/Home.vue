@@ -11,10 +11,10 @@
 // import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
-  name: 'home',
-  components: {
+    name: 'home',
+    components: {
     // HelloWorld
-  }
+    }
 }
 </script>
 <style lang="scss" scoped>

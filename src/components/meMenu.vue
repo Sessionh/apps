@@ -3,8 +3,8 @@
         <div class="content">
           
             <div class="item-tab" v-for="(item, index) in list" :key="index" @click="itemClick(index)">
-                <img :src="isChecked == index? item.image[0] : item.image[1]">
-                <div class="title"  :style="{color: isChecked == index ? '#ff8815': ''}">
+                <img :src="menuIndex == index? item.image[0] : item.image[1]">
+                <div class="title"  :style="{color: menuIndex == index? '#ff8815': ''}">
                     {{item.name}}
                 </div>
                 <div class="count" v-if="item.count">
@@ -31,7 +31,6 @@ export default {
     },
     data() {
         return {
-            isChecked: this.menuIndex,
             menuList: [
                 {
                     id: 1, 

@@ -31,10 +31,7 @@ export default {
   align-items: center;
   color: #ff8815;
   justify-content: center;
-  @include border($type: 1);
-  
-  
- 
+  @include border(bottom);
  
 }
 </style>

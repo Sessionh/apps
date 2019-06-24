@@ -25,35 +25,130 @@ body {
 
 
 
-/**
- * @description: 1px 边框问题 
- * @param {type: boolean} 0. 上边框  1. 下边框
- * @param {color: string} 边框颜色
- * @return: 
- */
-@mixin border( $type: 0, $color: #ddd) {
-
+@mixin border ($type, $color:#e6e6e6,$opacity:1) {
     position: relative;
-    &::after {
+    &::after{
+
         content: '';
         position: absolute;
-        z-index: 1;
-        pointer-events: none;
-        background-color: $color;
-        height: 1px;
+        @if $type == 'left' {
+        border-left: 1px solid $color;
+        top: 0;
         left: 0;
-        right: 0;
-        @if $type == 0 {
-            top: 0;
-        } @else if $type == 1 {
-            bottom: 0;
+        height: 100%;
+        transform-origin: 0 0;
+        opacity: $opacity;
+        } @else if $type == 'bottom' {
+        width: 100%;
+        border-bottom: 1px solid $color;
+        left: 0;
+        bottom: 0;
+        transform-origin: 0 bottom;
+        opacity: $opacity;
+        } @else if $type == 'top' {
+        width: 100%;
+        border-bottom: 1px solid $color;
+        left: 0;
+        top: 0;
+        transform-origin: 0 bottom;
+        opacity: $opacity;
+        }@else if $type == 'right' {
+        width: 100%;
+        border-right: 1px solid $color;
+        left: 0;
+        top: 0;
+        transform-origin: 0 0;
+        opacity: $opacity;
         }
-        @media only screen and (-webkit-min-device-pixel-ratio: 2) {
-            -webkit-transform: scaleY(0.5);
-            -webkit-transform-origin: 50% 0%;
+    
+        @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+        @if $type == 'left' {
+            height: 200%;
+        } @else {
+            width: 200%;
         }
-    }
-   
-  
-}
+        transform: scale(.5);
+        @if $type == 'right' {
+            height: 200%;
+        } @else {
+            width: 200%;
+        }
+        }
+        @media (-webkit-min-device-pixel-ratio: 3), (min-resolution: 3dppx) {
+        @if $type == 'left' {
+            height: 300%;
+        } @else {
+            width: 300%;
+        }
+        @if $type == 'right' {
+            height: 300%;
+        } @else {
+            width: 300%;
+        }
+        transform: scale(.33);
+        }
 
+    }
+    
+  }
+
+  /*  iPhone X 微信开发工具调节 */
+
+@media screen and (device-width: 375px) and (device-height: 724px) and (-webkit-device-pixel-ratio: 3) {
+    .border-iphone {
+      /* bottom: 34px; */
+      border-bottom: 34px solid #fff;
+    }
+  
+   
+  }
+  
+  /* 在这里做iPhone X的判断 */
+  
+  @media screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio: 3) {
+    .border-iphone {
+      /* bottom: 40px; */
+      border-bottom: 40px solid #fff;
+    }
+  }
+  
+  /* 1792x828px at 326ppi  iPhone XR*/
+  
+  @media only screen 
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 2) {
+    .border-iphone {
+      /* bottom: 34px; */
+      border-bottom: 34px solid #fff;
+    }
+  
+   
+  }
+  
+  /* 2436x1125px at 458ppi  iPhone XS*/
+  
+  @media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+    .border-iphone {
+      /* bottom: 34px; */
+      border-bottom: 34px solid #fff;
+    }
+  
+   
+  }
+  
+  /* 2688x1242px at 458ppi iPhone XS Max*/
+  
+  @media only screen 
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 3) {
+     .border-iphone {
+      /* bottom: 34px; */
+      border-bottom: 34px solid #fff;
+    }
+  
+  }

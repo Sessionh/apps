@@ -141,3 +141,5 @@ input[type=button] {width: auto; overflow: visible;}
 input,button,a {
     outline:none;
 }
+div{-webkit-tap-highlight-color:rgba(0,0,0,0); }
+a{-webkit-tap-highlight-color:rgba(0,0,0,0); }

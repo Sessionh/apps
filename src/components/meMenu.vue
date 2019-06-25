@@ -4,7 +4,7 @@
           
             <div class="item-tab" v-for="(item, index) in list" :key="index" @click="itemClick(index)">
                 <img :src="menuIndex == index? item.image[0] : item.image[1]">
-                <div class="title"  :style="{color: menuIndex == index? '#ff8815': ''}">
+                <div class="title"  :style="{color: menuIndex == index? color: ''}">
                     {{item.name}}
                 </div>
                 <div class="count" v-if="item.count">
@@ -27,6 +27,10 @@ export default {
         },
         list: {
             type: Array,
+        },
+        color: {
+            type: String,
+            default: '#ff8815'
         } 
     },
     data() {
@@ -75,6 +79,7 @@ export default {
     position: fixed;
     width: 100%;
     bottom: 0;
+    background: #fff;
   
     .content {
         display: flex;

@@ -99,7 +99,6 @@ export default {
             }
             .count {
                 position: absolute;
-               
                 top: rem(-5);
                 left: 60%;
                 min-width: rem(4);

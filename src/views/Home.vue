@@ -1,8 +1,9 @@
 <template>
-  <div class="home" id="searchBar">
-    <meNavTar></meNavTar>
+  <div class="home" id="searchBar" >
+    <meNavTar pathName="about" title="台况信息"></meNavTar>
 
     <meScroll ref="mescroll" class="content_list"  @downCallback="downCallback" @upCallback="upCallback">
+        <meSwiper></meSwiper>
         <div class="lis">开始看达克赛德</div>
         <div class="lis">开始看达克赛德</div>
         <div class="lis">开始看达克赛德</div>
@@ -33,11 +34,13 @@
 
 import meNavTar from '../components/meNavTar';
 import meScroll from '../components/meScroll';
+import meSwiper from '../components/meSwiper'
 export default {
     name: 'homeRouter',
     components: {
         meNavTar,
-        meScroll
+        meScroll,
+        meSwiper
     },
     data() {
         return {
@@ -77,35 +80,35 @@ export default {
         upCallback(page, mescroll) {
             console.log(page)
             this.isNothing = false; 
-            setTimeout(() => {
-                let config = {
-                    params: {
-                        pageNumber: page.num,
-                        pageSize: page.size,
-                    }
-                }
+            // setTimeout(() => {
+            //     let config = {
+            //         params: {
+            //             pageNumber: page.num,
+            //             pageSize: page.size,
+            //         }
+            //     }
 
-                this.$http.get('http://192.168.1.166:3006/users', config).then(res => {
-                    console.log(res)
-                    if (res.data) {
-                        this.shopList = res.data;
-                        // 如果是第一页需手动制空列表
-                        if (page.num === 1) this.shopList = []
-                        // 把请求到的数据添加到列表
-                        this.shopList = this.shopList.concat(res.data)
-                        // 数据渲染成功后,隐藏下拉刷新的状态
-                        this.$nextTick(() => {
-                            console.log(res.total)
-                            mescroll.endSuccess(res.data.length)
-                            if ( this.shopList.length === 0) {
-                                this.isNothing = true;
+            //     this.$http.get('http://192.168.1.166:3006/users', config).then(res => {
+            //         console.log(res)
+            //         if (res.data) {
+            //             this.shopList = res.data;
+            //             // 如果是第一页需手动制空列表
+            //             if (page.num === 1) this.shopList = []
+            //             // 把请求到的数据添加到列表
+            //             this.shopList = this.shopList.concat(res.data)
+            //             // 数据渲染成功后,隐藏下拉刷新的状态
+            //             this.$nextTick(() => {
+            //                 console.log(res.total)
+            //                 mescroll.endSuccess(res.data.length)
+            //                 if ( this.shopList.length === 0) {
+            //                     this.isNothing = true;
 
-                            }
-                        })
-                    }
-                })
+            //                 }
+            //             })
+            //         }
+            //     })
 
-            }, 300)
+            // }, 300)
        
         },
         handleScroll () { //改变元素#searchBar的top值
@@ -139,9 +142,9 @@ export default {
     margin-top: rem(20);
   }
   .content_list {
-    height: 100vh;
-   
+    height: 100vh ;
     position: relative;
+    border-top: rem(60) solid #fff;
    
 
   }

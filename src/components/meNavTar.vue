@@ -1,15 +1,15 @@
 <template>
     <div class="navTab">
         <div class="content">
-            <div class="left-icon">
+            <div class="left-icon" @click="backPage()">
                 <div class="iconfont icon-xiangzuojiantou"></div>
             </div>
             <div class="title">
-                台况信息
+                {{title}}
 
             </div>
             <div class="right-content">
-                <div class="iconfont icon-xiangzuojiantou"></div>
+                
     
             </div>
 
@@ -20,12 +20,28 @@
 <script>
 export default {
     name: 'meNavTar',
+    props: {
+        pathName: {
+            type: String,
+            default: ''
+        },
+        title: {
+            type: String,
+            default: ''
+        }
+    },
     data() {
         return {
 
         }
     },
     methods: {
+        backPage() {
+            if (this.pathName) {
+                this.$router.push(this.pathName)
+            }
+           
+        }
 
     }
 }
@@ -52,6 +68,12 @@ export default {
         }
         .left-icon {
             text-align: left;
+            padding-left: rem(6);
+            .icon-xiangzuojiantou {
+                font-weight: bold;
+                font-size: rem(18);
+
+            }
         }
         .title {
             flex: 1;

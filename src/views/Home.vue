@@ -1,9 +1,10 @@
 <template>
   <div class="home" id="searchBar" >
     <meNavTar pathName="about" title="台况信息"></meNavTar>
+   
 
     <meScroll ref="mescroll" class="content_list"  @downCallback="downCallback" @upCallback="upCallback">
-        <meSwiper></meSwiper>
+         <meSwiper></meSwiper>
         <div class="lis">开始看达克赛德</div>
         <div class="lis">开始看达克赛德</div>
         <div class="lis">开始看达克赛德</div>

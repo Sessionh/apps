@@ -52,7 +52,8 @@ export default {
     top: 0;
     z-index: 1000;
     width: 100%;
-    background-color: #fff;  
+    background-color: #fff;
+    overflow: hidden;
     .content {
           
         font-size: rem(19);

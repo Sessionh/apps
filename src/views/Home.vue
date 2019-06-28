@@ -4,7 +4,7 @@
    
 
     <meScroll ref="mescroll" class="content_list"  @downCallback="downCallback" @upCallback="upCallback">
-         <meSwiper></meSwiper>
+         <meSwiper :imageList="swiperList"></meSwiper>
         <div class="lis">开始看达克赛德</div>
         <div class="lis">开始看达克赛德</div>
         <div class="lis">开始看达克赛德</div>
@@ -48,6 +48,23 @@ export default {
             scrollTop: 0,
             shopList: [],
             isNothing: false,
+            swiperList: [
+                {
+                    img: 'http://p3.music.126.net/mTjdgQiGU4f3riJG_cJdsg==/109951164160780798.jpg',
+                    rem: 0,
+                   
+                },
+                {
+                    img: 'http://p3.music.126.net/SlRAByBL6FMdDBTQl8kiUQ==/109951164164111416.jpg',
+                    rem: 0,
+                   
+                },
+                {
+                    img: 'http://p3.music.126.net/aMhNpf8eVauUkLeWlkVJNQ==/109951164163560721.jpg',
+                    rem: 0,
+                    
+                }
+            ],
         }
 
     },

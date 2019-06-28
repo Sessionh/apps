@@ -5,10 +5,13 @@
         </keep-alive>
   
         <meMenu :list="menuList" :menuIndex="menuIndex" @onItem="itemClick"></meMenu>
+        
   </div>
 </template>
 <script>
 import meMenu from './components/meMenu'
+ 
+
 export default {
     components: {
         meMenu
@@ -58,7 +61,13 @@ export default {
             }
             
 
-        }
+        },
+       
+        
+
+    },
+    created() {
+     
     }
 }
 </script>

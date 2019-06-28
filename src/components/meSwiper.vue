@@ -1,6 +1,6 @@
 <template>
     <div class="meSwipe" @touchstart="touchstart" @touchmove="touchmove" @touchend="touchend">
-        <div class="swipe-item" :class="item.moveClass"  v-for="item in imageList" :key="item.id"  :style="{transform: `translate3d(${item.rem}px, 0px, 0px) scaley(60) ` }">
+        <div class="swipe-item" :class="item.moveClass"  v-for="(item, indexItem) in imageList" :key="indexItem"  :style="{transform: `translate3d(${item.rem}px, 0px, 0px) scaleY(${item.scaleY})`  }">
             <img :src="item.img">
         </div>
         <div class="index-icon">
@@ -13,28 +13,31 @@
 import { setTimeout } from 'timers';
 export default {
     name: 'meSwiper',
+    props: {
+        imageList: {
+            type: Array,
+
+        }
+    },
     data() {
         return {
-            imageList: [
-                {
-                    id: 1,
-                    img: 'http://p3.music.126.net/mTjdgQiGU4f3riJG_cJdsg==/109951164160780798.jpg',
-                    rem: 0,
-                    moveClass: '',
-                },
-                {
-                    id: 2,
-                    img: 'http://p3.music.126.net/SlRAByBL6FMdDBTQl8kiUQ==/109951164164111416.jpg',
-                    rem: 0,
-                    moveClass: '',
-                },
-                {
-                    id: 3,
-                    img: 'http://p3.music.126.net/aMhNpf8eVauUkLeWlkVJNQ==/109951164163560721.jpg',
-                    rem: 0,
-                    moveClass: '',
-                }
-            ],
+            // imageList: [
+            //     {
+            //         img: 'http://p3.music.126.net/mTjdgQiGU4f3riJG_cJdsg==/109951164160780798.jpg',
+            //         rem: 0,
+                   
+            //     },
+            //     {
+            //         img: 'http://p3.music.126.net/SlRAByBL6FMdDBTQl8kiUQ==/109951164164111416.jpg',
+            //         rem: 0,
+                   
+            //     },
+            //     {
+            //         img: 'http://p3.music.126.net/aMhNpf8eVauUkLeWlkVJNQ==/109951164163560721.jpg',
+            //         rem: 0,
+                    
+            //     }
+            // ],
             startX: 0, // 开始位置
             width: 0, // 屏幕宽度
             endX: 0, // 结束位置
@@ -49,9 +52,6 @@ export default {
             console.log(ev)
             let touch = ev.targetTouches[0];
             this.startX = touch.pageX;
-            console.log(window.innerWidth)
-           
-
         },
         touchmove(ev) {
            
@@ -71,6 +71,8 @@ export default {
                     this.imageList[this.index].rem = moveX
                     this.imageList[this.endIndex].rem =  moveX - this.width
 
+                    
+
                 } else { // 向左移动
                     if (this.index == this.imageList.length - 1) {
                         this.endIndex = 0
@@ -83,15 +85,30 @@ export default {
 
 
                 }
+                if (Math.abs(moveX) <= 100) {
+                    if ( this.imageList[this.index].scaleY > 0.9) {
+                        this.imageList[this.index].scaleY =  1 - Math.abs(moveX) /1000
+                    } 
+                    if (this.imageList[this.index].scaleY < 1) {
+                        this.imageList[this.endIndex].scaleY =  0.9 + Math.abs(moveX)/1000 
+                    }
+
+                }
+                
+                console.log(this.imageList[this.index].scaleY, this.imageList[this.endIndex].scaleY)
+              
+                 
+                
 
             }
             
 
         },
         touchend() {
-            console.log(this.index, this.endIndex)
-            this.imageList[this.index].moveClass = 'swiperMove'
-            this.imageList[this.endIndex].moveClass =  'swiperMove'
+            this.imageList[this.index].moveClass = 'swiperMove' // 加载动画
+            this.imageList[this.endIndex].moveClass =  'swiperMove' 
+            this.imageList[this.index].scaleY = 1
+            this.imageList[this.endIndex].scaleY = 1
             let nowIndex = 0;
             if (this.endX > 0) { // 向右移动
                 if (this.endX  > this.width/5) { // 移动距离超出屏幕宽度 3/1 切换轮播图
@@ -99,12 +116,11 @@ export default {
                     this.imageList[this.index].rem =  this.width
                     this.imageList[this.endIndex].rem =  0
                     nowIndex = this.endIndex
-                
                 } else {
+                    
                     this.imageList[this.index].rem = 0
                     this.imageList[this.endIndex].rem = -this.width
                     nowIndex = this.index
-               
                 }
 
             } else { // 向左移动 
@@ -114,15 +130,15 @@ export default {
                     this.imageList[this.index].rem =  -this.width
                     this.imageList[this.endIndex].rem =  0
                     nowIndex = this.endIndex
-                
                 } else {
+
                     this.imageList[this.index].rem = 0
                     this.imageList[this.endIndex].rem = this.width
                     nowIndex = this.index
-               
                 }
 
             }
+            
            
            
             setTimeout(() => {
@@ -130,9 +146,6 @@ export default {
                 this.imageList[this.index].moveClass = ''
                 this.imageList[this.endIndex].moveClass =  ''
                 this.index = nowIndex
-                console.log(nowIndex, this.index, this.endX)
-               
-
             }, 200)
         }
 
@@ -140,13 +153,17 @@ export default {
     created() {
         this.width = window.innerWidth;
         this.imageList.forEach((res, i) => {
+            res.scaleY = 1;
+            res.moveClass = '';
             if (i == 0) {
                 res.rem = 0
             } else {
                 res.rem = this.width
             }
-
         })
+        console.log(this.imageList)
+       
+        
 
     }
 }

@@ -1,5 +1,6 @@
 <template>
-    <div class="meSwipe" @touchstart="touchstart" @touchmove="touchmove" @touchend="touchend">
+
+    <div class="meSwipe" :style="{height: `${height}rem`}"  @touchstart="touchstart" @touchmove="touchmove" @touchend="touchend">
         <div class="swipe-item" :class="item.moveClass"  v-for="(item, indexItem) in imageList" :key="indexItem"  :style="{transform: `translate3d(${item.rem}px, 0px, 0px) scaleY(${item.scaleY})`  }">
             <img :src="item.img">
         </div>
@@ -8,16 +9,31 @@
         </div>
 
     </div>
+    
 </template>
 <script>
-import { setTimeout } from 'timers';
+import { setTimeout, setInterval, clearInterval } from 'timers';
+// import { setInterval } from 'timers';
 export default {
     name: 'meSwiper',
     props: {
         imageList: {
             type: Array,
 
+        },
+        height: {
+            type: Number,
+            default: 2.3,
+        },
+        loop: { // 是否开启循环播放
+            type: Boolean,
+            default: true,
+        }, 
+        loopTime: { // 轮播间隔
+            type: Number,
+            default: 2000,
         }
+        
     },
     data() {
         return {
@@ -44,25 +60,36 @@ export default {
             index: 0, // 当前图片下标
             endIndex: 0, // 未显示图片下标
             isLoading: false, // 是否加载中
+            timer: '', // 定时器
+          
 
         }
     },
     methods: {
         touchstart(ev) {
-            console.log(ev)
+            if (this.loop) {
+                clearInterval(this.timer)
+
+            }
+            
+           
+           
+            
+            // console.log(ev)
             let touch = ev.targetTouches[0];
             this.startX = touch.pageX;
+            
         },
         touchmove(ev) {
            
-            // console.log(ev.changedTouches[0])
+            
             let moveX = ev.changedTouches[0].pageX - this.startX;
             this.endX = moveX
-            console.log(moveX, this.index)
+            // console.log(moveX, this.index)
              
             if (!this.imageList[this.index].moveClass) { // 判断是否动画完成
                 if (moveX > 0) { // 向右移动
-                    console.log(this.imageList[this.index])
+                    // console.log(this.imageList[this.index])
                     if (this.index <= 0) {
                         this.endIndex = this.imageList.length - 1
                     } else {
@@ -95,7 +122,7 @@ export default {
 
                 }
                 
-                console.log(this.imageList[this.index].scaleY, this.imageList[this.endIndex].scaleY)
+                // console.log(this.imageList[this.index].scaleY, this.imageList[this.endIndex].scaleY)
               
                  
                 
@@ -146,10 +173,67 @@ export default {
                 this.imageList[this.index].moveClass = ''
                 this.imageList[this.endIndex].moveClass =  ''
                 this.index = nowIndex
+
+                if (this.loop) {
+                    this.timer = setInterval(() => {
+                        this.loopFun()
+                    }, this.loopTime)
+
+                }
+
+            
             }, 200)
+        },
+        loopFun() { // 轮播
+            if (this.index === 0) {
+                this.endIndex = this.imageList.length - 1;
+            } else {
+                this.endIndex = this.index - 1;
+            }
+
+            this.imageList[this.index].rem =  0
+            this.imageList[this.endIndex].rem =  this.width
+            this.imageList[this.index].scaleY = 1
+            this.imageList[this.endIndex].scaleY = 0.9
+            
+
+            setTimeout(() => {
+                this.imageList[this.index].moveClass = 'swiperMoveLoop' // 加载动画
+                this.imageList[this.endIndex].moveClass =  'swiperMoveLoop' 
+            
+                this.imageList[this.index].scaleY = 0.9
+                this.imageList[this.endIndex].scaleY = 1
+                this.imageList[this.index].rem = -this.width
+                this.imageList[this.endIndex].rem = 0
+
+                setTimeout(() => {
+                    this.imageList[this.index].moveClass = '' // 加载动画
+                    this.imageList[this.endIndex].moveClass =  ''
+                    this.imageList[this.index].scaleY = 1
+                    this.imageList[this.endIndex].scaleY = 1 
+                    this.index = this.endIndex
+                    console.log(this.index);
+
+                }, 500)
+               
+               
+
+            }, 100) 
+
         }
 
     },
+    mounted() {
+        if (this.loop) {
+            this.timer = setInterval(() => { // 轮播时间最小 1s
+                this.loopFun()
+            }, this.loopTime)
+
+        }
+       
+
+    },
+   
     created() {
         this.width = window.innerWidth;
         this.imageList.forEach((res, i) => {
@@ -162,20 +246,25 @@ export default {
             }
         })
         console.log(this.imageList)
+      
        
         
 
+    },
+    destroyed() {
+        clearInterval(this.timer)
     }
+   
 }
 </script>
 <style lang="scss" scoped>
 .meSwipe {
-    height: rem(200);
+    // height: auto;
     width: 100%;
     position: relative;
     overflow: hidden;
     .swipe-item {
-        height: rem(200);
+        height: 100%;
         width: 100%;
         position: absolute;
         left: 0;
@@ -184,9 +273,6 @@ export default {
         overflow: hidden;
         background: #fdfdfc;
         padding: 0 rem(10);
-        // transition-duration: 0ms;
-       
-   
 
         img {
             width: 100vh;
@@ -197,6 +283,10 @@ export default {
     }
     .swiperMove {
          transition: transform .2s  ease;
+
+    }
+    .swiperMoveLoop {
+         transition: transform .5s  ease;
 
     }
     .index-icon {

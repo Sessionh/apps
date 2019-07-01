@@ -4,7 +4,7 @@
    
 
     <meScroll ref="mescroll" class="content_list"  @downCallback="downCallback" @upCallback="upCallback">
-         <meSwiper :imageList="swiperList"></meSwiper>
+        <meSwiper class="me-swiper" :height="200/$store.state.rem"  :imageList="swiperList" :loop="true" loopTime="3000"></meSwiper>
         <div class="lis">开始看达克赛德</div>
         <div class="lis">开始看达克赛德</div>
         <div class="lis">开始看达克赛德</div>
@@ -165,6 +165,9 @@ export default {
     border-top: rem(60) solid #fff;
    
 
+  }
+  .me-swiper {
+      height: rem(200);
   }
   
 

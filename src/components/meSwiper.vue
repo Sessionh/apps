@@ -12,8 +12,6 @@
     
 </template>
 <script>
-import { setTimeout, setInterval, clearInterval } from 'timers';
-// import { setInterval } from 'timers';
 export default {
     name: 'meSwiper',
     props: {
@@ -72,117 +70,124 @@ export default {
 
             }
             
-           
-           
-            
             // console.log(ev)
             let touch = ev.targetTouches[0];
             this.startX = touch.pageX;
             
         },
         touchmove(ev) {
-           
-            
-            let moveX = ev.changedTouches[0].pageX - this.startX;
-            this.endX = moveX
-            // console.log(moveX, this.index)
+
+            if (this.imageList.length > 1) { // 判断数组长度
+                let moveX = ev.changedTouches[0].pageX - this.startX;
+                this.endX = moveX
+                // console.log(moveX, this.index)
              
-            if (!this.imageList[this.index].moveClass) { // 判断是否动画完成
-                if (moveX > 0) { // 向右移动
+                if (!this.imageList[this.index].moveClass) { // 判断是否动画完成
+                    if (moveX > 0) { // 向右移动
                     // console.log(this.imageList[this.index])
-                    if (this.index <= 0) {
-                        this.endIndex = this.imageList.length - 1
-                    } else {
-                        this.endIndex = this.index - 1
-                    }
-                    this.imageList[this.index].rem = moveX
-                    this.imageList[this.endIndex].rem =  moveX - this.width
+                        if (this.index <= 0) {
+                            this.endIndex = this.imageList.length - 1
+                        } else {
+                            this.endIndex = this.index - 1
+                        }
+                        this.imageList[this.index].rem = moveX
+                        this.imageList[this.endIndex].rem =  moveX - this.width
 
                     
 
-                } else { // 向左移动
-                    if (this.index == this.imageList.length - 1) {
-                        this.endIndex = 0
-                    } else {
-                        this.endIndex = this.index + 1
+                    } else { // 向左移动
+                        if (this.index == this.imageList.length - 1) {
+                            this.endIndex = 0
+                        } else {
+                            this.endIndex = this.index + 1
+                        }
+
+                        this.imageList[this.index].rem = moveX
+                        this.imageList[this.endIndex].rem =  moveX + this.width
+
+
                     }
+                    if (Math.abs(moveX) <= 100) {
+                        if ( this.imageList[this.index].scaleY > 0.9) {
+                            this.imageList[this.index].scaleY =  1 - Math.abs(moveX) /1000
+                        } 
+                        if (this.imageList[this.index].scaleY < 1) {
+                            this.imageList[this.endIndex].scaleY =  0.9 + Math.abs(moveX)/1000 
+                        }
 
-                    this.imageList[this.index].rem = moveX
-                    this.imageList[this.endIndex].rem =  moveX + this.width
-
-
-                }
-                if (Math.abs(moveX) <= 100) {
-                    if ( this.imageList[this.index].scaleY > 0.9) {
-                        this.imageList[this.index].scaleY =  1 - Math.abs(moveX) /1000
-                    } 
-                    if (this.imageList[this.index].scaleY < 1) {
-                        this.imageList[this.endIndex].scaleY =  0.9 + Math.abs(moveX)/1000 
                     }
-
-                }
                 
-                // console.log(this.imageList[this.index].scaleY, this.imageList[this.endIndex].scaleY)
+                    // console.log(this.imageList[this.index].scaleY, this.imageList[this.endIndex].scaleY)
               
                  
                 
 
+                }
+
             }
+           
+            
+            
             
 
         },
         touchend() {
-            this.imageList[this.index].moveClass = 'swiperMove' // 加载动画
-            this.imageList[this.endIndex].moveClass =  'swiperMove' 
-            this.imageList[this.index].scaleY = 1
-            this.imageList[this.endIndex].scaleY = 1
-            let nowIndex = 0;
-            if (this.endX > 0) { // 向右移动
-                if (this.endX  > this.width/5) { // 移动距离超出屏幕宽度 3/1 切换轮播图
+            if (this.imageList.length > 1) { 
+                this.imageList[this.index].moveClass = 'swiperMove' // 加载动画
+                this.imageList[this.endIndex].moveClass =  'swiperMove' 
+                this.imageList[this.index].scaleY = 1
+                this.imageList[this.endIndex].scaleY = 1
+                let nowIndex = 0;
+                if (this.endX > 0) { // 向右移动
+                    if (this.endX  > this.width/5) { // 移动距离超出屏幕宽度 3/1 切换轮播图
               
-                    this.imageList[this.index].rem =  this.width
-                    this.imageList[this.endIndex].rem =  0
-                    nowIndex = this.endIndex
-                } else {
+                        this.imageList[this.index].rem =  this.width
+                        this.imageList[this.endIndex].rem =  0
+                        nowIndex = this.endIndex
+                    } else {
                     
-                    this.imageList[this.index].rem = 0
-                    this.imageList[this.endIndex].rem = -this.width
-                    nowIndex = this.index
-                }
+                        this.imageList[this.index].rem = 0
+                        this.imageList[this.endIndex].rem = -this.width
+                        nowIndex = this.index
+                    }
 
-            } else { // 向左移动 
+                } else { // 向左移动 
 
-                if (Math.abs(this.endX)  > this.width/5) {
+                    if (Math.abs(this.endX)  > this.width/5) {
               
-                    this.imageList[this.index].rem =  -this.width
-                    this.imageList[this.endIndex].rem =  0
-                    nowIndex = this.endIndex
-                } else {
+                        this.imageList[this.index].rem =  -this.width
+                        this.imageList[this.endIndex].rem =  0
+                        nowIndex = this.endIndex
+                    } else {
 
-                    this.imageList[this.index].rem = 0
-                    this.imageList[this.endIndex].rem = this.width
-                    nowIndex = this.index
+                        this.imageList[this.index].rem = 0
+                        this.imageList[this.endIndex].rem = this.width
+                        nowIndex = this.index
+                    }
+
                 }
+            
+           
+           
+                setTimeout(() => {
+                
+                    this.imageList[this.index].moveClass = ''
+                    this.imageList[this.endIndex].moveClass =  ''
+                    this.index = nowIndex
+
+                    if (this.loop) {
+                        this.timer = setInterval(() => {
+                            this.loopFun()
+                        }, this.loopTime)
+
+                    }
+
+            
+                }, 200)
+
 
             }
-            
            
-           
-            setTimeout(() => {
-                
-                this.imageList[this.index].moveClass = ''
-                this.imageList[this.endIndex].moveClass =  ''
-                this.index = nowIndex
-
-                if (this.loop) {
-                    this.timer = setInterval(() => {
-                        this.loopFun()
-                    }, this.loopTime)
-
-                }
-
-            
-            }, 200)
         },
         loopFun() { // 轮播
             if (this.index === 0) {
@@ -212,7 +217,7 @@ export default {
                     this.imageList[this.index].scaleY = 1
                     this.imageList[this.endIndex].scaleY = 1 
                     this.index = this.endIndex
-                    console.log(this.index);
+                 
 
                 }, 500)
                
@@ -224,7 +229,7 @@ export default {
 
     },
     mounted() {
-        if (this.loop) {
+        if (this.loop && this.imageList.length > 1) {
             this.timer = setInterval(() => { // 轮播时间最小 1s
                 this.loopFun()
             }, this.loopTime)

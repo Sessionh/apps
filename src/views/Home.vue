@@ -162,7 +162,8 @@ export default {
   .content_list {
     height: 100vh ;
     position: relative;
-    border-top: rem(60) solid #fff;
+    border-top: rem(46) solid #fff;
+    
    
 
   }

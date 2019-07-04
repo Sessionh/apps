@@ -4,7 +4,7 @@
             <router-view/>
         </keep-alive>
   
-        <meMenu :list="menuList" :menuIndex="menuIndex" @onItem="itemClick"></meMenu>
+        <meMenu :list="menuList" :menuIndex="menuIndex" @onItem="itemClick" color="#88d698"></meMenu>
         
   </div>
 </template>
@@ -26,27 +26,33 @@ export default {
                     id: 1, 
                     name: '首页',
                     url: 'home',
-                    image: [ require('./assets/img/shouye(1)@2x.png'), require('./assets/img/shouye(2)@2x.png')],
+                    image: [ require('./assets/img/homeS.png'), require('./assets/img/home.png')],
                    
                 },
                 {
                     id: 2, 
-                    name: '任务',
+                    name: '课堂',
                     url: 'about',
-                    image: [require('./assets/img/renwu(1)@2x.png'), require('./assets/img/renwu(2)@2x.png')],
+                    image: [require('./assets/img/classroom2S.png'), require('./assets/img/classroom2.png')],
                 },
                 {
                     id: 3, 
-                    name: '图表',
+                    name: '笔记',
                     url: 'home',
-                    image: [require('./assets/img/top01.png'), require('./assets/img/top02.png')],
-                    count: 8,
+                    image: [require('./assets/img/noteS.png'), require('./assets/img/note.png')],
                 },
                 {
                     id: 4, 
+                    name: '商城',
+                    url: 'home',
+                    image: [require('./assets/img/shopS.png'), require('./assets/img/shop.png')],
+                    count: 8,
+                },
+                {
+                    id: 5, 
                     name: '我的',
                     url: 'home',
-                    image: [require('./assets/img/top01.png'), require('./assets/img/top02.png')],
+                    image: [require('./assets/img/userS.png'), require('./assets/img/user.png')],
                 }
             ] 
         }

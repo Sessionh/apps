@@ -1,10 +1,15 @@
 <template>
   <div class="home" id="searchBar" >
-    <meNavTar pathName="about" title="台况信息"></meNavTar>
+    <!-- <meNavTar pathName="about" title="台况信息"></meNavTar> -->
+    <header>
+        <meSearch style="width: 3rem"></meSearch>
+
+    </header>
    
 
     <meScroll ref="mescroll" class="content_list"  @downCallback="downCallback" @upCallback="upCallback">
         <meSwiper class="me-swiper" :height="200/$store.state.rem"  :imageList="swiperList" :loop="true" loopTime="3000"></meSwiper>
+        <menuType></menuType>
         <div class="lis">开始看达克赛德</div>
         <div class="lis">开始看达克赛德</div>
         <div class="lis">开始看达克赛德</div>
@@ -36,12 +41,16 @@
 import meNavTar from '../components/meNavTar';
 import meScroll from '../components/meScroll';
 import meSwiper from '../components/meSwiper'
+import menuType from '../components/menuType';
+import meSearch from '../components/meSearch';
 export default {
     name: 'homeRouter',
     components: {
         meNavTar,
         meScroll,
-        meSwiper
+        meSwiper,
+        menuType,
+        meSearch
     },
     data() {
         return {
@@ -162,7 +171,7 @@ export default {
   .content_list {
     height: 100vh ;
     position: relative;
-    border-top: rem(46) solid #fff;
+    // border-top: rem(46) solid #fff;
     
    
 

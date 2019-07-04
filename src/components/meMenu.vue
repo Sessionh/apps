@@ -85,7 +85,7 @@ export default {
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: rem(13);
+        font-size: rem(10);
         padding: rem(8) 0;
         color: #80848f;
         @include border(top);

@@ -3,9 +3,11 @@
       
         <!-- <span class="iconfont icon-sousuo1"></span>
         <span class="aligned">文字</span> -->
-        <span class="icon">
-            <i class="iconfont icon-sousuo1"></i>
-        </span>
+        <div class="icon">
+            <div class="iconfont icon-sousuo1"></div>
+        </div>
+       
+       
         
        
         
@@ -19,45 +21,51 @@ input{
 	outline:none;  
 	border:0px;
 }
-input::-webkit-input-placeholder {
-    color: #aab2bd;
-    font-size: rem(13);
+input::placeholder {
+    color: #c9c9c9;
+    font-size: rem(12);
+}   
+input:focus{
+    caret-color:green;
+     
 }
 
 .me-search {
     display: flex;
-    // height: rem(30);
     align-items: center;
-    // padding: rem(2) rem(7);
-    // border: 1px solid red;
-    position: relative;
+    padding: rem(2) rem(4);
     background: #e8eaec;
     border-radius: rem(5);
+    margin: rem(10) 0;
+    width: 100%;
        
-    .iconfont {
-        font-size: rem(14);
-        line-height: rem(30);
-        color: #808695;
-    }
+    
     
     
     
    
     input {
-        height: rem(30);
+        height: rem(20);
         width: 100%;
-        margin-left: rem(30);
+        // margin-left: rem(2);
+        display: flex;
+        align-items: center;
+        line-height: rem(20);   
+        
         
     }
     .icon {
-        width: 32px;
+        width: rem(20);
         height: 100%;
-        text-align: center;
-        position: absolute;
-        left: 0;
-        top: 0;
-        z-index: 1;
+        line-height: rem(20);
+        .iconfont {
+            font-size: rem(12);
+            color: #c9c9c9;
+        
+        }
+
     }
+   
    
 
 }

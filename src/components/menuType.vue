@@ -2,7 +2,7 @@
     <div class="menuType">
         <div class="content" v-for="item in channels" :key="item.id">
             <img :src="item.icon">
-            <div>{{item.title}}</div>
+            <div class="title">{{item.title}}</div>
         </div>
 
     </div>
@@ -104,12 +104,15 @@ export default {
     .content {
         // flex: 1;
         width: 20%;
-        margin-top: rem(10);
-         color: #515a6e;
-         font-size: rem(12);
+        margin-top: rem(15);
+        color: #515a6e;
+        font-size: rem(12);
         img {
-            width: rem(40);
-            height: rem(40);
+            width: rem(36);
+            height: rem(36);
+        }
+        .title {
+            margin-top: rem(2)
         }
     }
 }

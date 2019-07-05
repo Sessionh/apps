@@ -2,13 +2,20 @@
   <div class="home" id="searchBar" >
     <!-- <meNavTar pathName="about" title="台况信息"></meNavTar> -->
     <header>
-        <meSearch style="width: 3rem"></meSearch>
+        <i class="iconfont icon-tianjiajiahaowubiankuang"></i>
+        <meSearch style="flex: 1"></meSearch>
+        <i class="iconfont icon-fenlei"></i>
+        <div class="right-alter">
+            <i class="iconfont icon-weiwangguanicon-defuben-"></i>
+        </div>
+        
+
 
     </header>
    
 
     <meScroll ref="mescroll" class="content_list"  @downCallback="downCallback" @upCallback="upCallback">
-        <meSwiper class="me-swiper" :height="200/$store.state.rem"  :imageList="swiperList" :loop="true" loopTime="3000"></meSwiper>
+        <meSwiper class="me-swiper" :height="200/$store.state.rem"  :imageList="swiperList" :loop="true" :loopTime="loopTime"></meSwiper>
         <menuType></menuType>
         <div class="lis">开始看达克赛德</div>
         <div class="lis">开始看达克赛德</div>
@@ -54,6 +61,7 @@ export default {
     },
     data() {
         return {
+            loopTime: 3000,
             scrollTop: 0,
             shopList: [],
             isNothing: false,
@@ -162,6 +170,32 @@ export default {
 <style lang="scss" scoped>
 .home {
   color:  red;
+  header {
+    display: flex;
+    align-items: center;
+    @include border(bottom);
+    .iconfont {
+        
+        color:#000000;
+        font-size: rem(15);
+    }
+    .icon-tianjiajiahaowubiankuang {
+        width: rem(60);
+        text-align: center;
+
+    }
+    .icon-fenlei {
+        width: rem(71);
+        text-align: center;
+    }
+    .right-alter {
+        width: rem(38);
+        text-align: left;
+        position: relative;
+
+    }
+
+  }
   .lis {
     height: rem(40);
     width: 100%;
@@ -178,6 +212,7 @@ export default {
   }
   .me-swiper {
       height: rem(200);
+      margin-top: rem(15);
   }
   
 

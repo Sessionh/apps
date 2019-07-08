@@ -1,5 +1,5 @@
 <template>
-    <div class="meMenu border-iphone">
+    <div class="meMenu">
         <div class="content">
           
             <div class="item-tab" v-for="(item, index) in list" :key="index" @click="itemClick(index)">

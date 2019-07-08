@@ -16,7 +16,61 @@
 
     <meScroll ref="mescroll" class="content_list"  @downCallback="downCallback" @upCallback="upCallback">
         <meSwiper class="me-swiper" :height="200/$store.state.rem"  :imageList="swiperList" :loop="true" :loopTime="loopTime"></meSwiper>
-        <menuType></menuType>
+        <menuType class="menuType"></menuType>
+        <div class="show-foot">
+            <div class="foot-item">
+                <div class="top-title">
+                    <div class="title">
+                        秀早餐
+                    </div>
+                    <div class="icon">
+                        <i class="iconfont icon-zhengque"></i>
+                    </div>
+
+                </div>
+                <div class="bottom-content">
+                    3714人在记录
+
+                </div>
+
+            </div>
+
+             <div class="foot-item" style="background-color: #58b15d">
+                <div class="top-title">
+                    <div class="title">
+                        秀午餐
+                    </div>
+                    <div class="icon">
+                        <i class="iconfont icon-zhengque"></i>
+                    </div>
+
+                </div>
+                <div class="bottom-content">
+                    288人在记录
+
+                </div>
+
+            </div>
+
+
+             <div class="foot-item">
+                <div class="top-title">
+                    <div class="title">
+                        秀晚餐
+                    </div>
+                    <div class="icon">
+                        <i class="iconfont icon-zhengque"></i>
+                    </div>
+
+                </div>
+                <div class="bottom-content">
+                    110人在记录
+
+                </div>
+
+            </div>
+
+        </div>
         <div class="lis">开始看达克赛德</div>
         <div class="lis">开始看达克赛德</div>
         <div class="lis">开始看达克赛德</div>
@@ -45,7 +99,7 @@
 
 <script>
 
-import meNavTar from '../components/meNavTar';
+// import meNavTar from '../components/meNavTar';
 import meScroll from '../components/meScroll';
 import meSwiper from '../components/meSwiper'
 import menuType from '../components/menuType';
@@ -53,7 +107,7 @@ import meSearch from '../components/meSearch';
 export default {
     name: 'homeRouter',
     components: {
-        meNavTar,
+        // meNavTar,
         meScroll,
         meSwiper,
         menuType,
@@ -169,51 +223,110 @@ export default {
 </script>
 <style lang="scss" scoped>
 .home {
-  color:  red;
-  header {
-    display: flex;
-    align-items: center;
-    @include border(bottom);
-    .iconfont {
-        
-        color:#000000;
-        font-size: rem(15);
-    }
-    .icon-tianjiajiahaowubiankuang {
-        width: rem(60);
-        text-align: center;
-
-    }
-    .icon-fenlei {
-        width: rem(71);
-        text-align: center;
-    }
-    .right-alter {
-        width: rem(38);
-        text-align: left;
-        position: relative;
-
-    }
-
-  }
-  .lis {
-    height: rem(40);
-    width: 100%;
-    @include border(bottom);
-    margin-top: rem(20);
-  }
-  .content_list {
-    height: 100vh ;
-    position: relative;
-    // border-top: rem(46) solid #fff;
-    
    
+    header {
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        @include border(bottom);
+        .iconfont {
+            
+            color:#000000;
+            font-size: rem(18);
+        }
+        .icon-tianjiajiahaowubiankuang {
+            width: rem(60);
+            text-align: center;
+            font-weight: bold;
+        }
+    
+        .icon-fenlei {
+            width: rem(71);
+            text-align: center;
+            font-weight: bold;
+        }
+        .right-alter {
+            width: rem(38);
+            text-align: left;
+            position: relative;
 
-  }
-  .me-swiper {
-      height: rem(200);
-      margin-top: rem(15);
-  }
+        }
+
+    }
+    .lis {
+        height: rem(40);
+        width: 100%;
+        @include border(bottom);
+        margin-top: rem(20);
+    }
+    .content_list {
+        height: 100vh ;
+        position: relative;
+        // border-top: rem(46) solid #fff;
+        .menuType {
+            padding: 0 rem(20);
+        }
+       
+
+        .show-foot {
+            display: flex;
+            margin: rem(20);
+            text-align: left;
+           
+            .foot-item {
+                flex: 1;
+                padding: rem(6);
+                height: rem(50);
+                border-radius: rem(5);
+                background-color: #95d77d;
+                margin-left: rem(10);
+                
+                .top-title {
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    color: #fff;
+                    font-size: rem(16);
+                    .title {
+                        flex: 1;
+                       
+                    }
+
+                    .icon {
+                        width: rem(20);
+                        height: rem(20);
+                         color: #e4dede;
+                        border-radius: rem(11);
+                        background-color: #f9f9f9;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .icon-zhengque {
+                            font-size: rem(13);
+                        }
+                       
+                    }
+                }
+
+                .bottom-content {
+                    color: #fff;
+                    font-size: rem(11);
+
+                }
+
+               
+               
+
+
+            }
+        }
+        
+    
+
+    }
+    .me-swiper {
+        margin-top: rem(16);
+    }
   
 
 

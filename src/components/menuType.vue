@@ -108,8 +108,8 @@ export default {
         color: #515a6e;
         font-size: rem(12);
         img {
-            width: rem(36);
-            height: rem(36);
+            width: rem(43);
+            height: rem(43);
         }
         .title {
             margin-top: rem(2)

@@ -5,7 +5,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
     state: {
-        rem: 75, // iPhone 6尺寸的根元素大小基准值
+        rem: 82.8, // iPhone 6尺寸的根元素大小基准值
 
     },
     mutations: {

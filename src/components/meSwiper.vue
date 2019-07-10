@@ -1,7 +1,7 @@
 <template>
 
     <div class="meSwipe" :style="{height: `${height}rem`}"  @touchstart="touchstart" @touchmove="touchmove" @touchend="touchend">
-        <div class="swipe-item" :class="item.moveClass"  v-for="(item, indexItem) in imageList" :key="indexItem"  :style="{transform: `translate3d(${item.rem}px, 0px, 0px) scaleY(${item.scaleY})`  }">
+        <div class="swipe-item" :class="item.moveClass"  v-for="(item, indexItem) in imageList" :key="indexItem"  :style="{transform: `translate3d(${item.rem}px, 0px, 0px) scaleY(${item.scaleY})`}">
             <img :src="item.img">
         </div>
         <div class="index-icon">
@@ -35,30 +35,16 @@ export default {
     },
     data() {
         return {
-            // imageList: [
-            //     {
-            //         img: 'http://p3.music.126.net/mTjdgQiGU4f3riJG_cJdsg==/109951164160780798.jpg',
-            //         rem: 0,
-                   
-            //     },
-            //     {
-            //         img: 'http://p3.music.126.net/SlRAByBL6FMdDBTQl8kiUQ==/109951164164111416.jpg',
-            //         rem: 0,
-                   
-            //     },
-            //     {
-            //         img: 'http://p3.music.126.net/aMhNpf8eVauUkLeWlkVJNQ==/109951164163560721.jpg',
-            //         rem: 0,
-                    
-            //     }
-            // ],
             startX: 0, // 开始位置
+            startY: 0, // 开始Y轴位置
             width: 0, // 屏幕宽度
             endX: 0, // 结束位置
+            endY: 0,  // 结束Y轴位置
             index: 0, // 当前图片下标
             endIndex: 0, // 未显示图片下标
             isLoading: false, // 是否加载中
             timer: '', // 定时器
+            angle: 0, 
           
 
         }
@@ -69,22 +55,34 @@ export default {
                 clearInterval(this.timer)
 
             }
+          
             
             // console.log(ev)
             let touch = ev.targetTouches[0];
+          
             this.startX = touch.pageX;
+            this.startY =  touch.pageY;
+          
             
         },
         touchmove(ev) {
+            
 
             if (this.imageList.length > 1) { // 判断数组长度
                 let moveX = ev.changedTouches[0].pageX - this.startX;
+                let moveY = ev.changedTouches[0].pageY - this.startY;
                 this.endX = moveX
-                // console.log(moveX, this.index)
+               
              
-                if (!this.imageList[this.index].moveClass) { // 判断是否动画完成
+                // console.log(Math.abs(Math.atan2(moveY,moveX)))
+                let angle = Math.abs(Math.atan2(moveY,moveX))
+               
+                this.angle = angle
+            
+
+                if (!this.imageList[this.index].moveClass && !(angle > 0.6 && angle < 2.4)) { // 判断是否动画完成
                     if (moveX > 0) { // 向右移动
-                    // console.log(this.imageList[this.index])
+                        // console.log(this.imageList[this.index])
                         if (this.index <= 0) {
                             this.endIndex = this.imageList.length - 1
                         } else {
@@ -124,6 +122,10 @@ export default {
 
                 }
 
+                
+             
+               
+
             }
            
             
@@ -132,7 +134,7 @@ export default {
 
         },
         touchend() {
-            if (this.imageList.length > 1) { 
+            if (this.imageList.length > 1 && !(this.angle > 0.6 && this.angle < 2.4)) { 
                 this.imageList[this.index].moveClass = 'swiperMove' // 加载动画
                 this.imageList[this.endIndex].moveClass =  'swiperMove' 
                 this.imageList[this.index].scaleY = 1
@@ -229,29 +231,35 @@ export default {
 
     },
     mounted() {
+        
+
         if (this.loop && this.imageList.length > 1) {
             this.timer = setInterval(() => { // 轮播时间最小 1s
                 this.loopFun()
             }, this.loopTime)
 
         }
+        // window.addEventListener('scroll', function(ev) {
+        //     console.log(22, ev)
+
+        // })
+        
        
 
     },
-   
     created() {
         this.width = window.innerWidth;
         this.imageList.forEach((res, i) => {
             res.scaleY = 1;
             res.moveClass = '';
+            res.rem = 0
+
             if (i == 0) {
                 res.rem = 0
             } else {
                 res.rem = this.width
             }
         })
-        console.log(this.imageList)
-      
        
         
 
@@ -277,7 +285,7 @@ export default {
         z-index: 999;
         overflow: hidden;
         background: #fdfdfc;
-        padding: 0 rem(10);
+        padding: 0 rem(20);
 
         img {
             width: 100vh;
@@ -287,11 +295,11 @@ export default {
 
     }
     .swiperMove {
-         transition: transform .2s  ease;
+        transition: transform .2s  ease;
 
     }
     .swiperMoveLoop {
-         transition: transform .5s  ease;
+        transition: transform .5s  ease;
 
     }
     .index-icon {

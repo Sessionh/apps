@@ -15,7 +15,7 @@
    
 
     <meScroll ref="mescroll" class="content_list"  @downCallback="downCallback" @upCallback="upCallback">
-        <meSwiper class="me-swiper" :height="200/$store.state.rem"  :imageList="swiperList" :loop="true" :loopTime="loopTime"></meSwiper>
+        <meSwiper class="me-swiper" :height="247/$store.state.rem"  :imageList="swiperList" :loop="true" :loopTime="loopTime"></meSwiper>
         <menuType class="menuType"></menuType>
         <div class="show-foot">
             <div class="foot-item">
@@ -71,6 +71,31 @@
             </div>
 
         </div>
+
+        <div class="hot_activity">
+            <span class="title">
+                <div class="left-hot">
+                  {{hotEvents.title}}
+                </div>
+
+                <div class="see_more">
+                    更多 >
+                </div>
+
+            </span>
+            <div class="hot_shop">
+                <div class="hot_shop_item" v-for="item in hotEvents.events" :key="item.id">
+                    <img :src="item.image">
+                    <div class="content">
+                        {{item.name}}
+                    </div>
+
+
+                </div>
+               
+            </div>
+
+        </div>
         <div class="lis">开始看达克赛德</div>
         <div class="lis">开始看达克赛德</div>
         <div class="lis">开始看达克赛德</div>
@@ -104,6 +129,7 @@ import meScroll from '../components/meScroll';
 import meSwiper from '../components/meSwiper'
 import menuType from '../components/menuType';
 import meSearch from '../components/meSearch';
+import appJSON from './lib/app';
 export default {
     name: 'homeRouter',
     components: {
@@ -119,23 +145,9 @@ export default {
             scrollTop: 0,
             shopList: [],
             isNothing: false,
-            swiperList: [
-                {
-                    img: 'http://p3.music.126.net/mTjdgQiGU4f3riJG_cJdsg==/109951164160780798.jpg',
-                    rem: 0,
-                   
-                },
-                {
-                    img: 'http://p3.music.126.net/SlRAByBL6FMdDBTQl8kiUQ==/109951164164111416.jpg',
-                    rem: 0,
-                   
-                },
-                {
-                    img: 'http://p3.music.126.net/aMhNpf8eVauUkLeWlkVJNQ==/109951164163560721.jpg',
-                    rem: 0,
-                    
-                }
-            ],
+            
+            swiperList: [], // 轮播图
+            hotEvents: [], // 热门活动
         }
 
     },
@@ -214,6 +226,20 @@ export default {
 
     created() {
         console.log(22)
+        console.log(appJSON);
+       
+        let dsps =  appJSON.result.header.dsps
+        let hot_events = appJSON.result.header.hot_events;
+        dsps.forEach(res => {
+            res.rem = 0;
+            res.img = res.d.i;
+
+        })
+        this.swiperList = dsps
+        this.hotEvents = hot_events
+       
+       
+     
         // this.getData();
     },
     destroyed() {
@@ -222,12 +248,15 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+
 .home {
    
     header {
         display: flex;
         align-items: center;
         padding: 5px;
+        position: fixed;
+        top: 0;
         @include border(bottom);
         .iconfont {
             
@@ -260,7 +289,7 @@ export default {
         margin-top: rem(20);
     }
     .content_list {
-        height: 100vh ;
+        height: calc(100vh - #{rem(43)});
         position: relative;
         // border-top: rem(46) solid #fff;
         .menuType {
@@ -320,6 +349,55 @@ export default {
 
             }
         }
+
+        .hot_activity {
+            .title {
+                padding: rem(45) rem(26) rem(37) rem(26);
+                display: flex;
+                align-items: center;
+                .left-hot {
+                    flex: 1;
+                    font-size: rem(18);
+                    text-align: left;
+                }
+                .see_more {
+                    font-size: rem(14);
+                     color: #c9c9c9;
+                }
+            }
+            // .hot_shop::-webkit-scrollbar { width: 0 !important }
+            .hot_shop {
+               
+                
+                display: flex;
+                white-space: nowrap;
+                overflow-x: auto;
+                height: auto;
+                padding-left: rem(20);
+                .hot_shop_item {
+                    width: rem(232);
+                    margin-right: rem(11);
+                    img {
+                        height: rem(131);
+                        width: rem(232);
+                        border-radius: rem(10);
+                    }
+                    .content {
+                        font-weight: bold;
+                        font-size: rem(15);
+                        text-align: left;
+                        overflow: hidden;
+                        text-overflow:ellipsis;
+                        white-space: nowrap;
+                        -webkit-line-clamp: 2;
+                       
+                       
+                    }
+                     
+                }
+            }
+            
+        }
         
     
 
@@ -331,6 +409,21 @@ export default {
 
 
 }
+
+::webkit-scrollbar{
+    width: 0;
+
+}   //1 滚动条整体部分，其中的属性有width,height,background,border（就和一个块级元素一样）等。
+::webkit-scrollbar-button{
+    display:none
+} //2 滚动条两端的按钮。可以用display:none让其不显示，也可以添加背景图片，颜色改变显示效果。
+::webkit-scrollbar-track{
+    display:none
+}   //3  外层轨道。可以用display:none让其不显示，也可以添加背景图片，颜色改变显示效果。
+// ::webkit-scrollbar-track-piece //4  内层轨道，滚动条中间部分（除去）。
+// ::webkit-scrollbar-thumb  //5  滚动条里面可以拖动的那部分
+// ::webkit-scrollbar-corner  //6  边角
+// ::webkit-resizer  //7   定义右下角拖动块的样式
 
 </style>
 

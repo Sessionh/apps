@@ -15,12 +15,6 @@
                 "content": "13",
                 "id": "13"
             }, {
-                "i": "https:\/\/i1.douguo.com\/upload\/banner\/c\/0\/8\/c062fd1f5982a502d0322c18d4d60768.png",
-                "u": "https:\/\/m.douguo.com\/activity\/syhd\/detail\/1718?isapp=1&open=0&_vs=1000300&shiyong=icon&open=1",
-                "t": "吃货联盟",
-                "content": "10",
-                "id": "10"
-            }, {
                 "i": "https:\/\/i1.douguo.com\/upload\/banner\/d\/7\/d\/d7e4adad37b845a17e5fda6cfe52049d.png",
                 "u": "recipes:\/\/www.douguo.com\/videolist?refer=featured",
                 "t": "视频菜谱",
@@ -42,86 +36,86 @@
             "dsps": [{
                 "h": 1,
                 "d": {
-                    "id": "topRecommend_1206_0",
+                    "id": "topRecommend_1208_0",
                     "ch": 0,
                     "t": "",
                     "d": "",
-                    "i": "https:\/\/i1.douguo.com\/upload\/banner\/f\/d\/0\/fd234938c932fe3a0b38938934973b00.jpg",
-                    "url": "recipes:\/\/www.douguo.com\/menu?id=8634641"
+                    "i": "https:\/\/i1.douguo.com\/upload\/banner\/b\/6\/2\/b603ff2babc0a3261931e1915a3641b2.jpg",
+                    "url": "recipes:\/\/www.douguo.com\/menu?id=8641642"
                 }
             }, {
                 "h": 1,
                 "d": {
-                    "id": "topRecommend_1206_1",
+                    "id": "topRecommend_1208_1",
                     "ch": 0,
                     "t": "",
                     "d": "",
-                    "i": "https:\/\/i1.douguo.com\/upload\/banner\/a\/5\/4\/a56f462aa4ba3152fb2dc6006fa8eee4.jpg",
-                    "url": "recipes:\/\/www.douguo.com\/menu?id=8634807"
+                    "i": "https:\/\/i1.douguo.com\/upload\/banner\/0\/7\/e\/072557b239046cae7f57c72891407b1e.jpg",
+                    "url": "recipes:\/\/www.douguo.com\/menu?id=8641742"
                 }
             }, {
                 "h": 1,
                 "d": {
-                    "id": "topRecommend_1206_2",
+                    "id": "topRecommend_1208_2",
                     "ch": 0,
                     "t": "",
                     "d": "",
-                    "i": "https:\/\/i1.douguo.com\/upload\/banner\/d\/a\/b\/da5638976467adae4c6c00e1c627b6eb.jpg",
-                    "url": "recipes:\/\/www.douguo.com\/menu?id=8635391"
+                    "i": "https:\/\/i1.douguo.com\/upload\/banner\/b\/b\/2\/bb492d97e1f355f16681f43aa117fe72.jpg",
+                    "url": "recipes:\/\/www.douguo.com\/menu?id=8641791"
                 }
             }, {
                 "h": 1,
                 "d": {
-                    "id": "topRecommend_1206_3",
+                    "id": "topRecommend_1208_3",
                     "ch": 0,
                     "t": "",
                     "d": "",
-                    "i": "https:\/\/i1.douguo.com\/upload\/banner\/1\/2\/f\/12c525ace9b9e2ce39638429042fceef.jpg",
-                    "url": "recipes:\/\/www.douguo.com\/notedetail?id=21163458"
+                    "i": "https:\/\/i1.douguo.com\/upload\/banner\/7\/8\/c\/7828b355f5ac85baddb1f38d8f04b61c.jpg",
+                    "url": "recipes:\/\/www.douguo.com\/notedetail?id=22651008"
                 }
             }, {
                 "h": 1,
                 "d": {
-                    "id": "topRecommend_1206_4",
+                    "id": "topRecommend_1208_4",
                     "ch": 0,
                     "t": "",
                     "d": "",
-                    "i": "https:\/\/i1.douguo.com\/upload\/banner\/2\/6\/d\/26c4643774b51d15d248d9b8ea9f0b9d.jpg",
-                    "url": "recipes:\/\/www.douguo.com\/coursedetail?id=1531"
+                    "i": "https:\/\/i1.douguo.com\/upload\/banner\/8\/b\/e\/8badd8e5c9b3f3294c2bdd3923d7fbae.jpeg",
+                    "url": "recipes:\/\/www.douguo.com\/coursedetail?id=1914"
                 }
             }, {
                 "h": 1,
                 "d": {
-                    "id": "topRecommend_1206_5",
+                    "id": "topRecommend_1208_5",
                     "ch": 0,
                     "t": "",
                     "d": "",
-                    "i": "https:\/\/i1.douguo.com\/upload\/banner\/b\/7\/9\/b7e0c4daaad6c03a8ee8d060a4809bb9.jpg",
-                    "url": "recipes:\/\/www.douguo.com\/menu?id=8635572"
+                    "i": "https:\/\/i1.douguo.com\/upload\/banner\/9\/f\/a\/9f8e82525800b4aaa4bdf55abab5642a.jpg",
+                    "url": "recipes:\/\/www.douguo.com\/menu?id=8641860"
                 }
             }],
             "noteTags": [{
                 "id": "271",
                 "name": "秀早餐",
                 "url": "https:\/\/m.douguo.com\/note\/actlist?id=271&dg_refreshkey=publishnote&isapp=1",
-                "c": "2608",
-                "description": "2608人在记录",
+                "c": "3868",
+                "description": "3868人在记录",
                 "clockIcon": "http:\/\/i1.douguo.net\/upload\/banner\/1552543080.png",
                 "backgroundColor": "#80DA71"
             }, {
                 "id": "272",
                 "name": "秀午餐",
                 "url": "https:\/\/m.douguo.com\/note\/actlist?id=272&dg_refreshkey=publishnote&isapp=1",
-                "c": "154",
-                "description": "154人在记录",
+                "c": "2078",
+                "description": "2078人在记录",
                 "clockIcon": "http:\/\/i1.douguo.net\/upload\/banner\/1552543080.png",
                 "backgroundColor": "#27B451"
             }, {
                 "id": "273",
                 "name": "秀晚餐",
                 "url": "https:\/\/m.douguo.com\/note\/actlist?id=273&dg_refreshkey=publishnote&isapp=1",
-                "c": "54",
-                "description": "54人在记录",
+                "c": "152",
+                "description": "152人在记录",
                 "clockIcon": "http:\/\/i1.douguo.net\/upload\/banner\/1552543080.png",
                 "backgroundColor": "#80DA71"
             }],
@@ -130,6 +124,62 @@
                 "title": "热门活动",
                 "more_url": "recipes:\/\/www.douguo.com\/hotevents",
                 "events": [{
+                    "id": "2146",
+                    "name": "童趣料理马拉松，一天一晒，赢安佳好礼",
+                    "des": "",
+                    "type_id": "0",
+                    "type": "默认活动",
+                    "duration": "2019年07月10日至2019年07月24日",
+                    "starttime": 1562735760,
+                    "end_date": "2019-07-24 00:00:00",
+                    "image": "https:\/\/i1.douguo.com\/\/upload\/banner\/1561113390.jpg",
+                    "url": "https:\/\/m.douguo.com\/activity\/cpzj\/index\/2135?isapp=1&open=0&_vs=1000300&open=0",
+                    "date": "2019-07-10 13:16:00",
+                    "checked": 0,
+                    "time_text": "进行中"
+                }, {
+                    "id": "2117",
+                    "name": "大奖悬赏征集|三大酱拌面你最PICK谁？",
+                    "des": "",
+                    "type_id": "0",
+                    "type": "默认活动",
+                    "duration": "2019年07月10日至2019年07月24日",
+                    "starttime": 1562722200,
+                    "end_date": "2019-07-24 00:00:00",
+                    "image": "https:\/\/i1.douguo.com\/\/upload\/banner\/1559819157.jpg",
+                    "url": "https:\/\/m.douguo.com\/activity\/unipresident?isapp=1&open=0&_vs=1000300&open=0",
+                    "date": "2019-07-10 09:30:00",
+                    "checked": 0,
+                    "time_text": "进行中"
+                }, {
+                    "id": "2173",
+                    "name": "夏日开胃都靠它",
+                    "des": "",
+                    "type_id": "0",
+                    "type": "默认活动",
+                    "duration": "2019年07月10日至2019年07月17日",
+                    "starttime": 1562688000,
+                    "end_date": "2019-07-17 00:00:00",
+                    "image": "https:\/\/i1.douguo.com\/\/upload\/banner\/1562666398.jpg",
+                    "url": "https:\/\/m.douguo.com\/activity\/cpzj\/detail\/2172?isapp=1&open=0&_vs=1000300&dg_refreshkey=publishnote&open=0",
+                    "date": "2019-07-10 00:00:00",
+                    "checked": 0,
+                    "time_text": "进行中"
+                }, {
+                    "id": "2170",
+                    "name": "菜谱有奖征集 | 夏日冰品不能少",
+                    "des": "",
+                    "type_id": "0",
+                    "type": "默认活动",
+                    "duration": "2019年07月10日至2019年07月16日",
+                    "starttime": 1562688000,
+                    "end_date": "2019-07-16 23:59:59",
+                    "image": "https:\/\/i1.douguo.com\/\/upload\/banner\/1562569807.jpg",
+                    "url": "https:\/\/m.douguo.com\/activity\/cpzj\/detail\/2169?isapp=1&open=0&_vs=1000300&open=0",
+                    "date": "2019-07-10 00:00:00",
+                    "checked": 0,
+                    "time_text": "进行中"
+                }, {
                     "id": "2145",
                     "name": "德运甜品战 |传笔记赢澳洲游、蒸烤箱、料理机等好礼",
                     "des": "",
@@ -155,62 +205,6 @@
                     "image": "https:\/\/i1.douguo.com\/\/upload\/banner\/1562234961.jpg",
                     "url": "https:\/\/m.douguo.com\/activity\/familyDay\/?id=2153&isapp=1&open=0&open=0",
                     "date": "2019-07-08 00:00:00",
-                    "checked": 0,
-                    "time_text": "进行中"
-                }, {
-                    "id": "2168",
-                    "name": "线下招募 | 豆果美食x7 FRESH 食力派 北京站",
-                    "des": "",
-                    "type_id": "17",
-                    "type": "默认活动",
-                    "duration": "2019年07月06日至2019年07月12日",
-                    "starttime": 1562342400,
-                    "end_date": "2019-07-12 23:59:59",
-                    "image": "https:\/\/i1.douguo.com\/upload\/banner\/1562323981.jpg",
-                    "url": "http:\/\/m.douguo.com\/activity\/familyDay\/?id=2168&isapp=1&open=0&open=0",
-                    "date": "2019-07-06 00:00:00",
-                    "checked": 0,
-                    "time_text": "进行中"
-                }, {
-                    "id": "2146",
-                    "name": "童趣料理马拉松，一天一晒，赢安佳好礼",
-                    "des": "",
-                    "type_id": "0",
-                    "type": "默认活动",
-                    "duration": "2019年07月04日至2019年07月24日",
-                    "starttime": 1562202540,
-                    "end_date": "2019-07-24 00:00:00",
-                    "image": "https:\/\/i1.douguo.com\/\/upload\/banner\/1561113390.jpg",
-                    "url": "https:\/\/m.douguo.com\/activity\/cpzj\/index\/2135?isapp=1&open=0&_vs=1000300&open=0",
-                    "date": "2019-07-04 09:09:00",
-                    "checked": 0,
-                    "time_text": "进行中"
-                }, {
-                    "id": "2160",
-                    "name": "菜谱有奖征集 | 夏天夜宵High起来！",
-                    "des": "",
-                    "type_id": "0",
-                    "type": "默认活动",
-                    "duration": "2019年07月03日至2019年07月10日",
-                    "starttime": 1562083200,
-                    "end_date": "2019-07-10 00:00:00",
-                    "image": "https:\/\/i1.douguo.com\/\/upload\/banner\/1561967053.jpg",
-                    "url": "https:\/\/m.douguo.com\/activity\/cpzj\/index\/2159?isapp=1&open=0&_vs=1000300&open=0",
-                    "date": "2019-07-03 00:00:00",
-                    "checked": 0,
-                    "time_text": "进行中"
-                }, {
-                    "id": "2162",
-                    "name": "“蒸”功夫美食大赛",
-                    "des": "",
-                    "type_id": "0",
-                    "type": "默认活动",
-                    "duration": "2019年07月02日至2019年07月24日",
-                    "starttime": 1562034000,
-                    "end_date": "2019-07-24 00:00:00",
-                    "image": "https:\/\/i1.douguo.com\/\/upload\/banner\/1562034173.jpg",
-                    "url": "https:\/\/m.douguo.com\/activity\/cpzj\/index\/2161?isapp=1&open=0&_vs=1000300&open=0",
-                    "date": "2019-07-02 10:20:00",
                     "checked": 0,
                     "time_text": "进行中"
                 }]
@@ -284,15 +278,15 @@
             "index": 4,
             "commercial": {
                 "dsp": {
-                    "id": "8969",
+                    "id": "8975",
                     "pid": "",
                     "ch": 0,
-                    "url": "http:\/\/m.douguo.com\/jump\/100\/3089?open=0",
-                    "i": "http:\/\/i1.douguo.net\/upload\/advert_user\/9\/2\/2\/92ac836e798d6c4de59856418fabecc2.jpg",
+                    "url": "https:\/\/m.douguo.com\/activity\/familyDay\/?id=2153&isapp=1&open=0",
+                    "i": "http:\/\/i1.douguo.net\/upload\/advert_user\/2\/f\/8\/2f8be344e0cd6478f6f5065a7c517e18.jpg",
                     "cap": "广告",
                     "position": "4feed",
-                    "t": "只要两块五就能吃最出名的重庆小面！",
-                    "d": "耙豌豆&杂酱，豌杂面的地道，4分钟让你吃到！",
+                    "t": "线下招募 | 沈阳食尚，乐享美极",
+                    "d": "美极联合豆果美食邀您一起寻味沈阳",
                     "query": "",
                     "client_ip": "",
                     "req_min_i": 2,
@@ -300,16 +294,16 @@
                     "media_type": 0,
                     "request_count": 4,
                     "max_impression_count": "0",
-                    "name": "统一巧面馆",
-                    "logo": "http:\/\/i1.douguo.net\/upload\/\/photo\/b\/3\/e\/u54863803903641180421.jpg",
-                    "logo_action_url": "recipes:\/\/www.douguo.com\/user?id=23685963",
+                    "name": "雀巢美极",
+                    "logo": "http:\/\/i1.douguo.net\/upload\/\/photo\/0\/2\/a\/u52906221987464185116.jpeg",
+                    "logo_action_url": "recipes:\/\/www.douguo.com\/user?id=23409517",
                     "user": {
-                        "nick": "统一巧面馆",
-                        "user_photo": "http:\/\/i1.douguo.net\/upload\/\/photo\/b\/3\/e\/u54863803903641180421.jpg",
+                        "nick": "雀巢美极",
+                        "user_photo": "http:\/\/i1.douguo.net\/upload\/\/photo\/0\/2\/a\/u52906221987464185116.jpeg",
                         "lvl": 7,
-                        "user_id": "23685963"
+                        "user_id": "23409517"
                     },
-                    "recommend_label": "11626人刚刚看过",
+                    "recommend_label": "9536人刚刚看过",
                     "canclose": 0
                 },
                 "type": 128
@@ -340,7 +334,7 @@
                         "lvl": 7,
                         "user_id": 0
                     },
-                    "recommend_label": "23703人刚刚看过",
+                    "recommend_label": "15190人刚刚看过",
                     "canclose": 0
                 },
                 "type": 128
@@ -351,298 +345,325 @@
             "list": [{
                 "type": 2,
                 "r": {
-                    "id": 2315904,
-                    "cookstory": "快捷简便又好喝，可以当饭吃。",
-                    "n": "红萝卜玉米土豆猪骨汤",
-                    "img": "https:\/\/i1.douguo.com\/upload\/caiku\/9\/e\/8\/300_9e2e9219f385b965775c31096386cd08.jpeg",
+                    "id": 2316572,
+                    "cookstory": "",
+                    "n": "泡菜蛋卷寿司",
+                    "img": "https:\/\/i1.douguo.com\/upload\/caiku\/b\/7\/0\/300_b78c054816314d96f1c9823c0bbf18b0.jpeg",
                     "stc": 0,
                     "sti": 0,
                     "dc": 0,
-                    "fc": 558,
-                    "an": "猫_CAT",
-                    "recommend_label": "19053人看过",
+                    "fc": 859,
+                    "an": "iome",
+                    "recommend_label": "29530人看过",
                     "pw": "600",
                     "ph": "450",
-                    "ecs": 1,
+                    "ecs": 0,
                     "hq": 0,
                     "display_ingredient": 1,
                     "rate": 0,
                     "a": {
-                        "id": "17544446",
-                        "n": "猫_CAT",
-                        "v": 1,
-                        "p": "http:\/\/i1.douguo.net\/upload\/photo\/0\/d\/1\/70_u64326869862605075225.jpeg",
+                        "id": "21347438",
+                        "n": "iome",
+                        "v": 0,
+                        "p": "http:\/\/i1.douguo.net\/upload\/photo\/3\/1\/0\/70_u11689253684930203606.jpeg",
                         "lvl": 6,
-                        "is_prime": true
+                        "is_prime": false
                     },
-                    "p": "https:\/\/cp1.douguo.com\/upload\/caiku\/9\/e\/8\/960_9e2e9219f385b965775c31096386cd08.jpeg",
+                    "p": "https:\/\/cp1.douguo.com\/upload\/caiku\/b\/7\/0\/960_b78c054816314d96f1c9823c0bbf18b0.jpeg",
                     "cookstep": [{
                         "position": "1",
-                        "content": "备好材料",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/6\/3\/7\/140_6318ff0d42eb83ebb5fb9a93f0093627.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/6\/3\/7\/600_6318ff0d42eb83ebb5fb9a93f0093627.jpeg"
+                        "content": "1.打入三颗鸡蛋加入葱花，盐打散搅拌均匀\n2.锅内刷油倒入蛋液煎至定型翻面，两面金黄盛出备用",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/7\/4\/9\/140_74a843f656a8bdb22c1ed01645ffe819.jpeg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/7\/4\/9\/600_74a843f656a8bdb22c1ed01645ffe819.jpeg"
                     }, {
                         "position": "2",
-                        "content": "切好材料",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/b\/3\/e\/140_b399b60e04d769d9a1c7e22bfa50680e.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/b\/3\/e\/600_b399b60e04d769d9a1c7e22bfa50680e.jpeg"
+                        "content": "锅内刷油放入午餐肉片煎至两面金黄备用",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/d\/6\/f\/140_d64c7c62973439d906aeb695c3c3405f.jpeg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/d\/6\/f\/600_d64c7c62973439d906aeb695c3c3405f.jpeg"
                     }, {
                         "position": "3",
-                        "content": "准备好锅子",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/8\/e\/9\/140_8efcc196afc0a4890b81545488f3a069.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/8\/e\/9\/600_8efcc196afc0a4890b81545488f3a069.jpeg"
+                        "content": "准备一张紫菜，铺上米饭，铺上蛋饼",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/1\/f\/0\/140_1fe3ecb38340cca6132b657ee1dc5fd0.jpeg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/1\/f\/0\/600_1fe3ecb38340cca6132b657ee1dc5fd0.jpeg"
                     }, {
                         "position": "4",
-                        "content": "煲一锅开水",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/6\/0\/9\/140_608b15b983a9dc66d42332c6678fa309.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/6\/0\/9\/600_608b15b983a9dc66d42332c6678fa309.jpeg"
+                        "content": "铺上泡菜",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/9\/7\/5\/140_9775e156aa2f4919268fa1339776c6c5.jpeg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/9\/7\/5\/600_9775e156aa2f4919268fa1339776c6c5.jpeg"
                     }, {
                         "position": "5",
-                        "content": "猪骨放进去煮三分钟，去一下血水",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/4\/c\/5\/140_4c7255cc4b2409d13820c07dae5f5d15.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/4\/c\/5\/600_4c7255cc4b2409d13820c07dae5f5d15.jpeg"
+                        "content": "铺上蛋饼和午餐肉",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/7\/f\/3\/140_7fe52ceebee0093265efaacdb254c213.jpeg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/7\/f\/3\/600_7fe52ceebee0093265efaacdb254c213.jpeg"
                     }, {
                         "position": "6",
-                        "content": "猪骨捞起备用",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/b\/a\/d\/140_ba1a628ef61647db98e1d96e2e0e8a0d.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/b\/a\/d\/600_ba1a628ef61647db98e1d96e2e0e8a0d.jpeg"
+                        "content": "卷好定型，切成小段就完成了",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/6\/d\/b\/140_6ddc676670862e22e8afaad537f09ecb.jpeg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/6\/d\/b\/600_6ddc676670862e22e8afaad537f09ecb.jpeg"
                     }, {
                         "position": "7",
-                        "content": "把材料依次放进锅里，放蜜枣",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/5\/2\/6\/140_5219b419e465f915f798c3260692e636.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/5\/2\/6\/600_5219b419e465f915f798c3260692e636.jpeg"
+                        "content": "成品",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/0\/f\/4\/140_0fc03c6d133377814b390a9957b48614.jpeg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/0\/f\/4\/600_0fc03c6d133377814b390a9957b48614.jpeg"
                     }, {
                         "position": "8",
-                        "content": "放玉米",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/a\/7\/d\/140_a778684a92e6bf401dbf8bb752e6968d.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/a\/7\/d\/600_a778684a92e6bf401dbf8bb752e6968d.jpeg"
+                        "content": "成品",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/3\/4\/d\/140_348b8e62f39b29398902c21793767c3d.jpeg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/3\/4\/d\/600_348b8e62f39b29398902c21793767c3d.jpeg"
                     }, {
                         "position": "9",
-                        "content": "放红萝卜",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/6\/f\/1\/140_6ff7c1f3f43c27b2d0cbc682fd555741.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/6\/f\/1\/600_6ff7c1f3f43c27b2d0cbc682fd555741.jpeg"
+                        "content": "成品",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/0\/4\/c\/140_040e52845e45549c0df63f98a8a4e83c.jpeg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/0\/4\/c\/600_040e52845e45549c0df63f98a8a4e83c.jpeg"
                     }, {
                         "position": "10",
-                        "content": "放土豆",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/e\/d\/6\/140_ed0850fd2146ca2318ab1647204da626.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/e\/d\/6\/600_ed0850fd2146ca2318ab1647204da626.jpeg"
-                    }, {
-                        "position": "11",
-                        "content": "放猪骨",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/e\/e\/c\/140_ee6917b7d1d52ac6d72f09d49b058d6c.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/e\/e\/c\/600_ee6917b7d1d52ac6d72f09d49b058d6c.jpeg"
-                    }, {
-                        "position": "12",
-                        "content": "加上五碗水",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/b\/9\/f\/140_b997708f7116bbde5a49739032b3a39f.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/b\/9\/f\/600_b997708f7116bbde5a49739032b3a39f.jpeg"
-                    }, {
-                        "position": "13",
-                        "content": "盖上盖子，插上电源",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/1\/4\/b\/140_14e00cf35374cf7a94463561efe44f6b.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/1\/4\/b\/600_14e00cf35374cf7a94463561efe44f6b.jpeg"
-                    }, {
-                        "position": "14",
-                        "content": "中火煲30分钟左右",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/4\/9\/4\/140_4908386089156c3385ce1b8cc4f4d3a4.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/4\/9\/4\/600_4908386089156c3385ce1b8cc4f4d3a4.jpeg"
-                    }, {
-                        "position": "15",
-                        "content": "加上一点食盐，完成",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/b\/2\/1\/140_b20e5e267de788b582492cea12551181.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/b\/2\/1\/600_b20e5e267de788b582492cea12551181.jpeg"
-                    }, {
-                        "position": "16",
-                        "content": "开喝",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/2\/4\/e\/140_24c55b51eb0641ffbb3bd7aa2b82944e.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/2\/4\/e\/600_24c55b51eb0641ffbb3bd7aa2b82944e.jpeg"
+                        "content": "成品",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/e\/b\/6\/140_eb79a3fffb3971bb7e3954d8be0ffdc6.jpeg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/e\/b\/6\/600_eb79a3fffb3971bb7e3954d8be0ffdc6.jpeg"
                     }],
                     "major": [{
-                        "title": "红萝卜",
-                        "note": "一根"
+                        "title": "米饭",
+                        "note": "适量"
                     }, {
-                        "title": "猪龙骨",
-                        "note": "350克"
+                        "title": "午餐肉",
+                        "note": "2片"
                     }, {
-                        "title": "土豆",
-                        "note": "两个"
-                    }, {
-                        "title": "玉米",
-                        "note": "一根"
-                    }, {
-                        "title": "蜜枣",
+                        "title": "鸡蛋",
                         "note": "3个"
                     }, {
-                        "title": "食盐",
-                        "note": "少量"
+                        "title": "葱花",
+                        "note": "适量"
+                    }, {
+                        "title": "泡菜",
+                        "note": "适量"
+                    }, {
+                        "title": "紫菜",
+                        "note": "1张"
                     }],
                     "minor": [],
                     "cook_difficulty": "切墩(初级)",
                     "cook_time": "10~30分钟",
                     "tags": [],
-                    "vc": 19053,
+                    "vc": 29530,
                     "business_level": "0",
                     "levelid": "2"
                 }
             }, {
                 "type": 2,
                 "r": {
-                    "id": 2315907,
-                    "cookstory": "三秒钟就能学会，厨房小白也能做出健康美味又营养的香菇玉米胡萝卜排骨汤，超级鲜香美味，简单易做，营养又健康！连喝三大碗都不够的节奏！",
-                    "n": "香菇玉米胡萝卜排骨汤",
-                    "img": "https:\/\/i1.douguo.com\/upload\/caiku\/7\/7\/3\/300_772f09e8dec4acef70813ef691f8d353.jpg",
+                    "id": 2316573,
+                    "cookstory": "樱桃季，买的多了，做点罐头冰镇上，炎热的夏天来一碗自制零添加的冰镇樱桃罐头，满足，惬意。",
+                    "n": "樱桃罐头",
+                    "img": "https:\/\/i1.douguo.com\/upload\/caiku\/0\/b\/e\/300_0bf4708d64e5965df1bcba78bafe6eee.jpg",
                     "stc": 0,
                     "sti": 0,
                     "dc": 0,
-                    "fc": 507,
-                    "an": "西蘭",
-                    "recommend_label": "21244人看过",
-                    "pw": "1280",
-                    "ph": "853",
-                    "ecs": 1,
+                    "fc": 2087,
+                    "an": "枭笑",
+                    "recommend_label": "2087人刚刚收藏过",
+                    "pw": "800",
+                    "ph": "600",
+                    "ecs": 0,
                     "hq": 0,
                     "display_ingredient": 1,
                     "rate": 0,
                     "a": {
-                        "id": "18863324",
-                        "n": "西蘭",
+                        "id": "16627624",
+                        "n": "枭笑",
                         "v": 1,
-                        "p": "http:\/\/i1.douguo.net\/upload\/photo\/3\/f\/2\/70_u76660510757290074040.jpg",
-                        "lvl": 6,
-                        "is_prime": false
+                        "p": "http:\/\/i1.douguo.net\/upload\/photo\/3\/a\/c\/70_u55968356313010094250.jpg",
+                        "lvl": 8,
+                        "is_prime": true
                     },
-                    "p": "https:\/\/cp1.douguo.com\/upload\/caiku\/7\/7\/3\/960_772f09e8dec4acef70813ef691f8d353.jpg",
+                    "p": "https:\/\/cp1.douguo.com\/upload\/caiku\/0\/b\/e\/960_0bf4708d64e5965df1bcba78bafe6eee.jpg",
                     "cookstep": [{
                         "position": "1",
-                        "content": "准备材料\n①排骨    300g\n②香菇     8个\n③胡萝卜  1根\n④玉米       1根\n⑤姜           1块\n⑥葱           1根",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/5\/0\/2\/140_500bbcb34d86bb893d09689940d48452.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/5\/0\/2\/600_500bbcb34d86bb893d09689940d48452.jpg"
+                        "content": "首先樱桃要选新鲜的，无烂无坏的。",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/b\/a\/c\/140_ba24b57eab11542220760dd017ad0dfc.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/b\/a\/c\/600_ba24b57eab11542220760dd017ad0dfc.jpg"
                     }, {
                         "position": "2",
-                        "content": "胡萝卜去皮切滚刀块，玉米切断，姜去皮切片。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/3\/e\/1\/140_3e69d0668fa593e54212566a110a1cc1.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/3\/e\/1\/600_3e69d0668fa593e54212566a110a1cc1.jpg"
+                        "content": "将樱桃蒂去掉，依次做完，放入器具中冷水冲洗两遍，加入盐，纯净水泡15分钟。",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/2\/f\/8\/140_2fc4375d8ee097360ae52b1197298b78.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/2\/f\/8\/600_2fc4375d8ee097360ae52b1197298b78.jpg"
                     }, {
                         "position": "3",
-                        "content": "香菇盐水洗净切花刀。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/d\/5\/c\/140_d54d1041409324632303aeaf45a8c9cc.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/d\/5\/c\/600_d54d1041409324632303aeaf45a8c9cc.jpg"
+                        "content": "泡好的樱桃捞出淋干水分，准备好冰糖。",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/6\/1\/5\/140_61550a315a4e9f5f2dcb6ecbc6df6535.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/6\/1\/5\/600_61550a315a4e9f5f2dcb6ecbc6df6535.jpg"
                     }, {
                         "position": "4",
-                        "content": "排骨洗净放入锅中，加三片姜。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/f\/d\/a\/140_fd6656d701c1954c3f56bde675a20eaa.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/f\/d\/a\/600_fd6656d701c1954c3f56bde675a20eaa.jpg"
+                        "content": "锅中加入水，冰糖。",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/7\/4\/e\/140_74b7dc175f22f6a269e5bccb4ca101fe.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/7\/4\/e\/600_74b7dc175f22f6a269e5bccb4ca101fe.jpg"
                     }, {
                         "position": "5",
-                        "content": "适量料酒。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/2\/f\/e\/140_2f1ef3e1661a81417c2ad0ae17a0070e.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/2\/f\/e\/600_2f1ef3e1661a81417c2ad0ae17a0070e.jpg"
+                        "content": "大火烧开，使冰糖融化。",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/0\/d\/1\/140_0d4ef5a11a77e06af21e6deb19aa66f1.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/0\/d\/1\/600_0d4ef5a11a77e06af21e6deb19aa66f1.jpg"
                     }, {
                         "position": "6",
-                        "content": "加冷水焯去血水。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/e\/c\/6\/140_ecb5719ab1e20288c7617f68746a0086.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/e\/c\/6\/600_ecb5719ab1e20288c7617f68746a0086.jpg"
+                        "content": "待冰糖融化后加入樱桃。",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/1\/6\/7\/140_163a0a9b9392a646a2e00e6c676cc337.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/1\/6\/7\/600_163a0a9b9392a646a2e00e6c676cc337.jpg"
                     }, {
                         "position": "7",
-                        "content": "捞出净水洗净沥干备用。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/7\/b\/c\/140_7b9a668f92fc12999b4ecde4e4d6570c.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/7\/b\/c\/600_7b9a668f92fc12999b4ecde4e4d6570c.jpg"
+                        "content": "大火烧开后立即关火。",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/8\/7\/d\/140_87b15f164b51cc9e5203054bffda315d.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/8\/7\/d\/600_87b15f164b51cc9e5203054bffda315d.jpg"
                     }, {
                         "position": "8",
-                        "content": "香菇焯水2分钟捞出。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/7\/2\/6\/140_72aee04f75dcdafb4e2dbad44c0cdc06.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/7\/2\/6\/600_72aee04f75dcdafb4e2dbad44c0cdc06.jpg"
+                        "content": "煮好的罐头装入消过毒的玻璃瓶中密封，凉后冰箱冷藏保存。",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/9\/1\/b\/140_91b58d24dafe2b2f9d0baca6765d00ab.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/9\/1\/b\/600_91b58d24dafe2b2f9d0baca6765d00ab.jpg"
                     }, {
                         "position": "9",
-                        "content": "排骨连同姜片一起放入锅中。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/f\/9\/0\/140_f9c25f3cad3a55ed63f83552e3d50400.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/f\/9\/0\/600_f9c25f3cad3a55ed63f83552e3d50400.jpg"
+                        "content": "吃的时候，用无油无水的小勺盛出来吃。",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/0\/0\/c\/140_00743a8ec4d2210706c4cd1e7f051a0c.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/0\/0\/c\/600_00743a8ec4d2210706c4cd1e7f051a0c.jpg"
                     }, {
                         "position": "10",
-                        "content": "加上玉米胡萝卜香菇。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/7\/3\/9\/140_73394afbdc21da7771a495365e2fb059.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/7\/3\/9\/600_73394afbdc21da7771a495365e2fb059.jpg"
-                    }, {
-                        "position": "11",
-                        "content": "加入没过食材的水，开启煲汤模式。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/8\/e\/9\/140_8efcfbeca7062dac7fd692b00917b0a9.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/8\/e\/9\/600_8efcfbeca7062dac7fd692b00917b0a9.jpg"
-                    }, {
-                        "position": "12",
-                        "content": "锅前加一勺盐，撒上葱花。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/9\/9\/9\/140_9993b9e413db10b135cb085b1ffe0de9.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/9\/9\/9\/600_9993b9e413db10b135cb085b1ffe0de9.jpg"
-                    }, {
-                        "position": "13",
-                        "content": "超级鲜香，营养美味的香菇玉米胡萝卜排骨汤就炖好了。喝汤有益健康，记得经常炖给家人喝。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/8\/1\/f\/140_81db95dc869f574c0f7e80ee0ca0a32f.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/8\/1\/f\/600_81db95dc869f574c0f7e80ee0ca0a32f.jpg"
-                    }, {
-                        "position": "14",
-                        "content": "汤鲜味美。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/f\/a\/7\/140_fa4b57679e7ca2fb97558db15b24df77.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/f\/a\/7\/600_fa4b57679e7ca2fb97558db15b24df77.jpg"
-                    }, {
-                        "position": "15",
-                        "content": "好吃到爆。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/3\/d\/0\/140_3d22fb5a3bbf37861c3b6c227af4b620.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/3\/d\/0\/600_3d22fb5a3bbf37861c3b6c227af4b620.jpg"
-                    }, {
-                        "position": "16",
-                        "content": "三碗都不够。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/0\/0\/4\/140_004246ba346293966fafa65b69cb8594.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/0\/0\/4\/600_004246ba346293966fafa65b69cb8594.jpg"
-                    }, {
-                        "position": "17",
-                        "content": "赶紧做一个。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/f\/b\/a\/140_fbfeb3f3c7733663f1e62dea0cc4956a.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/f\/b\/a\/600_fbfeb3f3c7733663f1e62dea0cc4956a.jpg"
-                    }, {
-                        "position": "18",
-                        "content": "超营养哦",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/e\/a\/e\/140_ea0a057f3407076c41c8bfc6bfb9d0ee.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/e\/a\/e\/600_ea0a057f3407076c41c8bfc6bfb9d0ee.jpg"
+                        "content": "好吃又好看，营养无添加，冷藏后口感更好。",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/a\/2\/a\/140_a2b128293093014cd223cfbb2b1dd6ca.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/a\/2\/a\/600_a2b128293093014cd223cfbb2b1dd6ca.jpg"
                     }],
                     "major": [{
-                        "title": "排骨",
-                        "note": "300g"
+                        "title": "樱桃",
+                        "note": "880g"
                     }, {
-                        "title": "玉米",
-                        "note": "1根"
+                        "title": "冰糖",
+                        "note": "100g"
                     }, {
-                        "title": "胡萝卜",
-                        "note": "1根"
+                        "title": "盐",
+                        "note": "3g"
+                    }],
+                    "minor": [],
+                    "cook_difficulty": "切墩(初级)",
+                    "cook_time": "10-30分钟",
+                    "tags": [],
+                    "vc": 74385,
+                    "business_level": "0",
+                    "levelid": "2"
+                }
+            }, {
+                "type": 2,
+                "r": {
+                    "id": 2316577,
+                    "cookstory": "无需多次搅拌也能自制出无冰渣、超香滑的冰激凌么？\r\n\r\n可以的！\r\n\r\n快来看看我们这款无需搅拌的波旁樱桃派冰激凌，口味和品质都不输哈根达斯，但自制版实惠又健康，还能按自己口味调整配料。\r\n\r\n首先，你需要几块樱桃派，请参考我们之前的樱桃夹心派食谱。你也可以用其他喜欢的派代替，如苹果派，香蕉派，芒果派等。\r\n\r\n烘焙过得酥脆派皮混合着香甜的水果，和浓滑的奶油冰激凌简直是绝配。每一口，都能带来极其丰富的口感，在舌尖层层化开。",
+                    "n": "波旁樱桃派冰激凌 | 无需搅拌的丝滑口感",
+                    "img": "https:\/\/i1.douguo.com\/upload\/caiku\/1\/b\/8\/300_1bdf5f4a1410dd03d067c1618c81e798.jpg",
+                    "stc": 0,
+                    "sti": 0,
+                    "dc": 0,
+                    "fc": 1717,
+                    "an": "食域家",
+                    "recommend_label": "1717人刚刚收藏过",
+                    "pw": "886",
+                    "ph": "600",
+                    "ecs": 0,
+                    "hq": 0,
+                    "display_ingredient": 1,
+                    "rate": 0,
+                    "a": {
+                        "id": "20733020",
+                        "n": "食域家",
+                        "v": 1,
+                        "p": "http:\/\/i1.douguo.net\/upload\/photo\/8\/0\/9\/70_u0129256576621811211503.jpg",
+                        "lvl": 5,
+                        "is_prime": true
+                    },
+                    "p": "https:\/\/cp1.douguo.com\/upload\/caiku\/1\/b\/8\/960_1bdf5f4a1410dd03d067c1618c81e798.jpg",
+                    "cookstep": [{
+                        "position": "1",
+                        "content": "我们这款冰激凌还添加了波旁威士忌，甜甜的冰激凌混着淡淡的酒香，给你醉人的甜美。但如果给小孩吃或者不喜欢酒味可以不加。",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/b\/f\/9\/140_bf45ed0326c87e638ac06483eb0ea499.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/b\/f\/9\/600_bf45ed0326c87e638ac06483eb0ea499.jpg"
                     }, {
-                        "title": "香菇",
-                        "note": "8个"
+                        "position": "2",
+                        "content": "在一个中碗里，把炼乳、香草精、波旁威士忌和盐混合均匀。",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/5\/a\/1\/140_5a79bd54dd6eaa3d7cd1c13346010af1.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/5\/a\/1\/600_5a79bd54dd6eaa3d7cd1c13346010af1.jpg"
                     }, {
-                        "title": "姜",
-                        "note": "适量"
+                        "position": "3",
+                        "content": "另取一个大的可冷冻碗，加入奶油后用电动搅拌器打发，直到搅拌器提起后形成尖角。整个过程大约需要3-5分钟。\r\n\r\n奶油不要打发过度，不要打成分离状，应该是顺滑状态。",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/3\/7\/e\/140_37730284984e5b02a5297a0f374b6b0e.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/3\/7\/e\/600_37730284984e5b02a5297a0f374b6b0e.jpg"
                     }, {
-                        "title": "葱",
-                        "note": "1根"
+                        "position": "4",
+                        "content": "用橡皮刮刀把炼乳混合物拌入鲜奶油中，再搅拌一下，混合物会非常光滑。\r\n\r\n如果你的制作环境较热，要在搅拌碗下放一个盛着冰块水的大碗或深盘，防止奶油融化。",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/6\/3\/6\/140_639c914a85605943c13e2838f08bbc96.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/6\/3\/6\/600_639c914a85605943c13e2838f08bbc96.jpg"
+                    }, {
+                        "position": "5",
+                        "content": "搅拌均匀后，用保鲜膜盖住碗口，放入冰箱冷冻一个小时左右。\r\n\r\n一小时后冰激凌会稍微有点硬了，此时再放入樱桃派就不会沉到底部了，能轻松地将樱桃派混合入冰激凌中。",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/8\/a\/a\/140_8a10a65299f18b91467c6c57ae9a1c6a.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/8\/a\/a\/600_8a10a65299f18b91467c6c57ae9a1c6a.jpg"
+                    }, {
+                        "position": "6",
+                        "content": "混入樱桃派后搅拌一下，然后倒入方形深烤盘中，用刮刀推至各处薄厚均匀。\r\n\r\n在最上面撒上几块樱桃派，这样就是显而易见的樱桃派冰激凌啦。",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/b\/f\/8\/140_bfa4a3dab00eb12cf1d6382ddf77d828.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/b\/f\/8\/600_bfa4a3dab00eb12cf1d6382ddf77d828.jpg"
+                    }, {
+                        "position": "7",
+                        "content": "盖上保鲜膜，放入冰箱-18°冷冻6小时以上，直至完全冻实。",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/6\/0\/1\/140_6007688782eb370d0b2a5496f09eebb1.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/6\/0\/1\/600_6007688782eb370d0b2a5496f09eebb1.jpg"
+                    }, {
+                        "position": "8",
+                        "content": "吃的时候，从冰箱拿出来后稍微等等再吃。\r\n\r\n冰冰凉凉，酸酸甜甜，酥酥脆脆，还有威士忌的清香~",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/c\/4\/7\/140_c4346b3fc8701b215e13ebca96e19957.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/c\/4\/7\/600_c4346b3fc8701b215e13ebca96e19957.jpg"
+                    }, {
+                        "position": "9",
+                        "content": "这就是夏天该有的味道！",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/7\/c\/c\/140_7c84fb87d13e53f5bf7acf31741cbe8c.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/7\/c\/c\/600_7c84fb87d13e53f5bf7acf31741cbe8c.jpg"
+                    }, {
+                        "position": "10",
+                        "content": "请关注【食域家】，一起分享更多美食和见闻。",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/1\/0\/6\/140_10386ee7133ed866e8336b709253f386.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/1\/0\/6\/600_10386ee7133ed866e8336b709253f386.jpg"
+                    }],
+                    "major": [{
+                        "title": "罐装甜炼乳",
+                        "note": "400g"
+                    }, {
+                        "title": "香草精",
+                        "note": "2茶匙"
+                    }, {
+                        "title": "波旁威士忌",
+                        "note": "3汤匙"
+                    }, {
+                        "title": "盐",
+                        "note": "1\/4茶匙"
+                    }, {
+                        "title": "奶油，冷藏使用",
+                        "note": "500ml"
+                    }, {
+                        "title": "常温或冷藏后的自制樱桃派，粗略切碎",
+                        "note": "1-2个"
                     }],
                     "minor": [],
                     "cook_difficulty": "切墩(初级)",
                     "cook_time": "1小时以上",
                     "tags": [],
-                    "vc": 21244,
+                    "vc": 50698,
                     "business_level": "0",
                     "levelid": "2"
                 }
             }, {
                 "type": 2,
                 "r": {
-                    "id": 2315908,
-                    "cookstory": "燕麦除了传统意义上的作为配搭放在牛奶里，粥里一起喝之外，也可以把其当成主角制作成好吃的饼干之类的。今天就来介绍两款燕麦小零食，一次操作，两种成品哦。",
-                    "n": "一次操作，两种成品——燕麦饼干+燕麦杯",
-                    "img": "https:\/\/i1.douguo.com\/upload\/caiku\/f\/6\/1\/300_f645e6f72c42fb0cf63e128b39046b71.jpeg",
+                    "id": 2316580,
+                    "cookstory": "炎炎夏日，来份鲜美的冬瓜汤，再好不过啦！",
+                    "n": "冬瓜干贝瘦肉汤",
+                    "img": "https:\/\/i1.douguo.com\/upload\/caiku\/9\/a\/4\/300_9a80276e1d7dd62ddf5a118840644384.jpg",
                     "stc": 0,
                     "sti": 0,
                     "dc": 0,
-                    "fc": 293,
-                    "an": "爱做饭的小可爱123",
-                    "recommend_label": "10303人看过",
+                    "fc": 1742,
+                    "an": "will121",
+                    "recommend_label": "1742人刚刚收藏过",
                     "pw": "600",
                     "ph": "450",
                     "ecs": 0,
@@ -650,369 +671,123 @@
                     "display_ingredient": 1,
                     "rate": 0,
                     "a": {
-                        "id": "18057183",
-                        "n": "爱做饭的小可爱123",
+                        "id": "5791264",
+                        "n": "will121",
                         "v": 1,
-                        "p": "http:\/\/i1.douguo.net\/upload\/photo\/4\/c\/e\/70_u68969890780624095958.jpeg",
-                        "lvl": 4,
-                        "is_prime": false
-                    },
-                    "p": "https:\/\/cp1.douguo.com\/upload\/caiku\/f\/6\/1\/960_f645e6f72c42fb0cf63e128b39046b71.jpeg",
-                    "cookstep": [{
-                        "position": "1",
-                        "content": "准备好所有食材",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/b\/f\/c\/140_bf1afe80f702f37a2be79353325eb61c.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/b\/f\/c\/600_bf1afe80f702f37a2be79353325eb61c.jpg"
-                    }, {
-                        "position": "2",
-                        "content": "把燕麦，红糖，盐混合在一起",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/9\/8\/3\/140_98b5c4c1222c96339f315380b8184c63.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/9\/8\/3\/600_98b5c4c1222c96339f315380b8184c63.jpg"
-                    }, {
-                        "position": "3",
-                        "content": "依次倒入水，油，翻拌均匀",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/8\/8\/c\/140_88aadec5988ae9abf6e47c87b6f2124c.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/8\/8\/c\/600_88aadec5988ae9abf6e47c87b6f2124c.jpg"
-                    }, {
-                        "position": "4",
-                        "content": "混合好水、油后的样子",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/b\/8\/e\/140_b8c4adc4285c7cc3abc4bb1e6e1759ee.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/b\/8\/e\/600_b8c4adc4285c7cc3abc4bb1e6e1759ee.jpg"
-                    }, {
-                        "position": "5",
-                        "content": "倒入低筋粉，翻拌均匀",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/4\/1\/c\/140_419378020e775981654017c537c44a1c.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/4\/1\/c\/600_419378020e775981654017c537c44a1c.jpg"
-                    }, {
-                        "position": "6",
-                        "content": "混合好低粉后的样子",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/e\/9\/9\/140_e9e2d7d799dd199ca90afa165c471e59.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/e\/9\/9\/600_e9e2d7d799dd199ca90afa165c471e59.jpg"
-                    }, {
-                        "position": "7",
-                        "content": "每个分成25g的重量，揉成团，按压成饼状，这样待会就是燕麦饼干。另外也可以把其放入模具中，按压整齐，形成一个碗状（我用的是蛋挞皮模具），这样烤出来是燕麦杯。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/7\/b\/7\/140_7bb640acb892ac814a768356333743f7.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/7\/b\/7\/600_7bb640acb892ac814a768356333743f7.jpg"
-                    }, {
-                        "position": "8",
-                        "content": "放入烤箱，中层，上下火170度，25分钟出炉晾凉。燕麦饼干晾凉直接可以食用。燕麦杯晾凉后轻轻取出，倒入适量酸奶，表面撒上水果燕麦（或者你爱吃的各种水果），即可享用美味啦。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/b\/4\/e\/140_b498d949135219713340c99ef044662e.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/b\/4\/e\/600_b498d949135219713340c99ef044662e.jpg"
-                    }, {
-                        "position": "9",
-                        "content": "这个就是燕麦杯啦",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/3\/c\/a\/140_3caca7b4cbdb4f4fdcc0b19082d0080a.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/3\/c\/a\/600_3caca7b4cbdb4f4fdcc0b19082d0080a.jpg"
-                    }],
-                    "major": [{
-                        "title": "即食燕麦",
-                        "note": "100g"
-                    }, {
-                        "title": "红糖",
-                        "note": "35g"
-                    }, {
-                        "title": "低筋粉",
-                        "note": "50g"
-                    }, {
-                        "title": "食用油",
-                        "note": "30g"
-                    }, {
-                        "title": "清水",
-                        "note": "40g"
-                    }, {
-                        "title": "盐",
-                        "note": "2g"
-                    }],
-                    "minor": [],
-                    "cook_difficulty": "切墩(初级)",
-                    "cook_time": "10-30分钟",
-                    "tags": [],
-                    "vc": 10303,
-                    "business_level": "0",
-                    "levelid": "2"
-                }
-            }, {
-                "type": 2,
-                "r": {
-                    "id": 2315911,
-                    "cookstory": "在夏天多吃蒸菜，有益健康，因为蒸菜不需要过度的烹饪，不需要油炸煎炒等，最大限度保持了食材的原汁原味和营养不流失。《蒸鸡翅》是我家在炎热的夏季保留一种做法，它鲜嫩味美，特别好做，即使厨房新手都能做出来，而且最大的特点是不用在高温的厨房的煎熬。蒸鸡翅最健康，虽然没有炸鸡翅金黄酥香，也没有烤鸡那么的靓丽有色相，但是从营养的角度来说，它的做法最健康。蒸鸡翅不用加一点油，因为鸡翅本身就含有大量的油脂，通过蒸的方法都被蒸出来了，鸡翅因而吃起来特别的清爽不油腻，鸡是温性的食材，夏天多吃容易上火，采取蒸的烹饪方法，尤其适合孩子和老人们食用，再怎么吃都不会上火，小伙伴们，家里有老人孩子的，就多吃这种做法吧。",
-                    "n": "蒸鸡翅",
-                    "img": "https:\/\/i1.douguo.com\/upload\/caiku\/e\/8\/9\/300_e886c28ad4585693c550ca6d71c0a949.JPG",
-                    "stc": 0,
-                    "sti": 0,
-                    "dc": 0,
-                    "fc": 314,
-                    "an": "天山可可A",
-                    "recommend_label": "10330人看过",
-                    "pw": "800",
-                    "ph": "533",
-                    "ecs": 0,
-                    "hq": 0,
-                    "display_ingredient": 1,
-                    "rate": 0,
-                    "a": {
-                        "id": "2883912",
-                        "n": "天山可可A",
-                        "v": 0,
-                        "p": "http:\/\/i1.douguo.net\/upload\/photo\/6\/c\/8\/70_u7179185554916908101151.jpg",
-                        "lvl": 3,
-                        "is_prime": false
-                    },
-                    "p": "https:\/\/cp1.douguo.com\/upload\/caiku\/e\/8\/9\/960_e886c28ad4585693c550ca6d71c0a949.JPG",
-                    "cookstep": [{
-                        "position": "1",
-                        "content": "主料：鸡翅8个\r\n辅料：姜10克、生抽30克、干淀粉20克、盐适量、蚝油20克、香葱1根、红辣椒少许、胡椒粉适量",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/8\/b\/1\/140_8bd090c41a891bb6491fd52b2bd813d1.JPG",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/8\/b\/1\/600_8bd090c41a891bb6491fd52b2bd813d1.JPG"
-                    }, {
-                        "position": "2",
-                        "content": "把鸡翅洗净， 最好浸泡十几分钟，这样鸡翅血水可以泡出来，想更入味，就用刀背拍几下，或者用菜刀切花刀",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/7\/7\/4\/140_77f4f550d698573b964533ba49770304.JPG",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/7\/7\/4\/600_77f4f550d698573b964533ba49770304.JPG"
-                    }, {
-                        "position": "3",
-                        "content": "把切洗净切丝，香葱洗净切末，红辣椒洗净切丁备用",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/f\/6\/d\/140_f6690dffb4d5d412a90f0a9b39a7e64d.JPG",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/f\/6\/d\/600_f6690dffb4d5d412a90f0a9b39a7e64d.JPG"
-                    }, {
-                        "position": "4",
-                        "content": "把鸡翅装入大碗里，加入生抽、蚝油、盐、姜丝、胡椒粉适量，用筷子翻拌均匀，盖上好入味，腌至少半小时，充分入味；如果能隔夜腌可放冰箱冷藏防止变质",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/9\/f\/e\/140_9f09a78ddf56a9de5c9f2427971ef54e.JPG",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/9\/f\/e\/600_9f09a78ddf56a9de5c9f2427971ef54e.JPG"
-                    }, {
-                        "position": "5",
-                        "content": "把腌制好的鸡翅放入大盘中，如果能吃姜，把姜丝也一同放入，腌鸡翅的汤汁也一同倒入，再舀两小勺淀粉，我用的红薯淀粉，用土豆淀粉或者玉米淀粉也可以；淀粉的作用就跟炒肉丝时放淀粉一样，将肉汁锁住，吃起来肉嫩；我不喜欢蒸鸡类，加料酒或者黄酒，因为鸡肉太鲜美了，怕影响味道，喜欢的可以加点",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/b\/5\/8\/140_b587b92cacbb01b1dcc86146522e4db8.JPG",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/b\/5\/8\/600_b587b92cacbb01b1dcc86146522e4db8.JPG"
-                    }, {
-                        "position": "6",
-                        "content": "把鸡翅与淀粉充分拌匀，不要太厚，有薄薄一层即可；它的作用就是把水分裹住，让鸡翅嫩滑，把鸡翅摆盘，看上去更漂亮些；",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/8\/a\/9\/140_8ae91861cace0b613428559da860fd39.JPG",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/8\/a\/9\/600_8ae91861cace0b613428559da860fd39.JPG"
-                    }, {
-                        "position": "7",
-                        "content": "将鸡翅盘放入蒸锅，我的蒸锅是折叠电蒸锅，平时不用的时候可以折叠并摞扣起来，不占地儿，而且蒸汽十足，没有此锅可以用普通的蒸锅、蒸箱、或者电饭煲都可以",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/1\/0\/8\/140_1067d1964beacc129328b009011a9ea8.JPG",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/1\/0\/8\/600_1067d1964beacc129328b009011a9ea8.JPG"
-                    }, {
-                        "position": "8",
-                        "content": "冷水加入锅里，水箱加凉水，定时20分钟，中途不要开盖；用普通蒸锅也差不多20-25分钟左右，还要看鸡翅块的大小、所选用的时间都是按照量来具体确定的",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/7\/b\/b\/140_7bfce30e7e55f6bb1bc142a51c70475b.JPG",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/7\/b\/b\/600_7bfce30e7e55f6bb1bc142a51c70475b.JPG"
-                    }, {
-                        "position": "9",
-                        "content": "时间到后先不要着急揭盖，焖几分钟，因为电蒸锅实在太烫了，出锅后香味四溢，撒上香葱末增色添香，红色辣椒圈点缀其中，更能增加食欲。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/d\/7\/5\/140_d794d1e3fe94e65bbce57cdb36fcab05.JPG",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/d\/7\/5\/600_d794d1e3fe94e65bbce57cdb36fcab05.JPG"
-                    }],
-                    "major": [{
-                        "title": "鸡翅",
-                        "note": "8个"
-                    }, {
-                        "title": "生抽",
-                        "note": "20克"
-                    }, {
-                        "title": "蚝油",
-                        "note": "20克"
-                    }, {
-                        "title": "姜",
-                        "note": "10克"
-                    }, {
-                        "title": "盐",
-                        "note": "适量"
-                    }],
-                    "minor": [],
-                    "cook_difficulty": "切墩(初级)",
-                    "cook_time": "10-30分钟",
-                    "tags": [],
-                    "vc": 10330,
-                    "business_level": "0",
-                    "levelid": "2"
-                }
-            }, {
-                "type": 2,
-                "r": {
-                    "id": 2315914,
-                    "cookstory": "千言万语表达爱，\n最真切的莫过于那句：\n“你饿不饿，我煮面给你吃！”\n简简单单的一碗面，\n饱含了浓浓的情意。\n爱他（她）就为他（她）做碗面吧！",
-                    "n": "番茄鸡蛋面",
-                    "img": "https:\/\/i1.douguo.com\/upload\/caiku\/4\/9\/c\/300_499726af2bb5f509a6350a6a1ac9788c.jpeg",
-                    "stc": 0,
-                    "sti": 0,
-                    "dc": 0,
-                    "fc": 592,
-                    "an": "爱做饭的江老师",
-                    "recommend_label": "19168人看过",
-                    "pw": "600",
-                    "ph": "400",
-                    "ecs": 1,
-                    "hq": 0,
-                    "display_ingredient": 1,
-                    "rate": 0,
-                    "a": {
-                        "id": "23355546",
-                        "n": "爱做饭的江老师",
-                        "v": 0,
-                        "p": "http:\/\/i1.douguo.net\/upload\/photo\/3\/2\/a\/70_u51832879937546093724.jpeg",
-                        "lvl": 5,
+                        "p": "http:\/\/i1.douguo.net\/upload\/photo\/3\/8\/d\/70_u10987125744502113403.jpg",
+                        "lvl": 7,
                         "is_prime": true
                     },
-                    "p": "https:\/\/cp1.douguo.com\/upload\/caiku\/4\/9\/c\/960_499726af2bb5f509a6350a6a1ac9788c.jpeg",
+                    "p": "https:\/\/cp1.douguo.com\/upload\/caiku\/9\/a\/4\/960_9a80276e1d7dd62ddf5a118840644384.jpg",
                     "cookstep": [{
                         "position": "1",
-                        "content": "1.准备食材。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/8\/2\/b\/140_825083017c5c5947f73cf3970433daeb.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/8\/2\/b\/600_825083017c5c5947f73cf3970433daeb.jpeg"
+                        "content": "准备食材",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/1\/5\/8\/140_159cf3fad98e3b94acd043c2d9c74a78.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/1\/5\/8\/600_159cf3fad98e3b94acd043c2d9c74a78.jpg"
                     }, {
                         "position": "2",
-                        "content": "2.鸡蛋打入碗中，番茄切十字。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/2\/4\/d\/140_24c4e53e21ab6e8f21d4fa820f67f3ad.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/2\/4\/d\/600_24c4e53e21ab6e8f21d4fa820f67f3ad.jpeg"
+                        "content": "温水里加3片生姜加入干贝提前泡发（我大概泡了45分钟左右）",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/c\/e\/7\/140_ced4b6efaf043f4c5939ef7f10f05237.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/c\/e\/7\/600_ced4b6efaf043f4c5939ef7f10f05237.jpg"
                     }, {
                         "position": "3",
-                        "content": "3.番茄去皮，可以用水煮，也可以用火烤。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/9\/0\/d\/140_90420cc3301479e5504563914f5bafed.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/9\/0\/d\/600_90420cc3301479e5504563914f5bafed.jpeg"
+                        "content": "剩下的生姜切片备用，葱白和葱绿分别切末备用",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/e\/4\/b\/140_e4429efe007751ce5cdbd108e88638ab.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/e\/4\/b\/600_e4429efe007751ce5cdbd108e88638ab.jpg"
                     }, {
                         "position": "4",
-                        "content": "4.番茄切成丁状，葱切成葱花。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/6\/c\/a\/140_6c5d61f37d4bea575cc2b8e3b2b9815a.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/6\/c\/a\/600_6c5d61f37d4bea575cc2b8e3b2b9815a.jpeg"
+                        "content": "冬瓜去皮去籽切块备用",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/9\/d\/6\/140_9db738d348b1cd756d7cd830f6870746.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/9\/d\/6\/600_9db738d348b1cd756d7cd830f6870746.jpg"
                     }, {
                         "position": "5",
-                        "content": "5.起锅烧油，油温7成熟下入鸡蛋。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/8\/1\/a\/140_81d6a8786d06094f5bd7da71290392aa.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/8\/1\/a\/600_81d6a8786d06094f5bd7da71290392aa.jpeg"
+                        "content": "瘦肉切丝，加入少许料酒及少许食盐加点地瓜粉拌匀备用",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/5\/c\/4\/140_5c25c41eaa967bdeccb34c671328c4d4.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/5\/c\/4\/600_5c25c41eaa967bdeccb34c671328c4d4.jpg"
                     }, {
                         "position": "6",
-                        "content": "6.用筷子轻松拨动。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/3\/d\/d\/140_3d79ef6b791cc71bb61868a07f7d44ad.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/3\/d\/d\/600_3d79ef6b791cc71bb61868a07f7d44ad.jpeg"
+                        "content": "锅里下入适量食用油，把姜片和葱白下去爆香",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/c\/4\/3\/140_c47fe1414f241e955d35019c2a5bb983.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/c\/4\/3\/600_c47fe1414f241e955d35019c2a5bb983.jpg"
                     }, {
                         "position": "7",
-                        "content": "7.翻面。注意蛋不要煎的太老了。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/a\/4\/4\/140_a47aba17fb6846b26ab41aa15a98b1b4.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/a\/4\/4\/600_a47aba17fb6846b26ab41aa15a98b1b4.jpeg"
+                        "content": "把冬瓜块倒下去翻炒一下",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/9\/2\/3\/140_9254ad1d8454471c91288588f4558333.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/9\/2\/3\/600_9254ad1d8454471c91288588f4558333.jpg"
                     }, {
                         "position": "8",
-                        "content": "8用筷子夹出鸡蛋，过滤多余的油。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/4\/e\/1\/140_4e999b004a59e61bc9899268dd3e0201.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/4\/e\/1\/600_4e999b004a59e61bc9899268dd3e0201.jpeg"
+                        "content": "加入适量水和泡发好的干贝下去煮熟",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/7\/b\/3\/140_7b536d9cbbc714ca493724314f5d0933.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/7\/b\/3\/600_7b536d9cbbc714ca493724314f5d0933.jpg"
                     }, {
                         "position": "9",
-                        "content": "9.将就锅中煎蛋剩余少许的油，下入番茄丁。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/d\/e\/c\/140_de348f4ff85987e0fd666e66fd754fac.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/d\/e\/c\/600_de348f4ff85987e0fd666e66fd754fac.jpeg"
+                        "content": "冬瓜煮至快熟的时候把腌制好的瘦肉放进去煮一小会",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/0\/0\/9\/140_00f1b49222e87f8b186316d11deacb39.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/0\/0\/9\/600_00f1b49222e87f8b186316d11deacb39.jpg"
                     }, {
                         "position": "10",
-                        "content": "10.均匀翻炒。炒出番茄中自带的水份。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/e\/f\/e\/140_efb6df4b48098a0b118502db37305bae.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/e\/f\/e\/600_efb6df4b48098a0b118502db37305bae.jpeg"
+                        "content": "洒入葱花，调入食盐",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/c\/b\/4\/140_cbb9f654b216742bcbee5582bb791fe4.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/c\/b\/4\/600_cbb9f654b216742bcbee5582bb791fe4.jpg"
                     }, {
                         "position": "11",
-                        "content": "11.加入适量清水。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/c\/8\/d\/140_c85a7e5f42f294305a8372df25ff8bbd.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/c\/8\/d\/600_c85a7e5f42f294305a8372df25ff8bbd.jpeg"
+                        "content": "一份甘美鲜甜的冬瓜汤就好喽！",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/4\/4\/b\/140_447d8e92b41e00a94f7b7e53d434532b.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/4\/4\/b\/600_447d8e92b41e00a94f7b7e53d434532b.jpg"
                     }, {
                         "position": "12",
-                        "content": "12.大火烧开。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/4\/5\/4\/140_45524c8ac59dd560950e02bc13b56804.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/4\/5\/4\/600_45524c8ac59dd560950e02bc13b56804.jpeg"
-                    }, {
-                        "position": "13",
-                        "content": "13.熬制3-5分钟。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/6\/9\/a\/140_6929d5090d86a8e7a2c40741330548aa.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/6\/9\/a\/600_6929d5090d86a8e7a2c40741330548aa.jpeg"
-                    }, {
-                        "position": "14",
-                        "content": "14.下入面条。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/2\/d\/7\/140_2d0d89ccb5e4849142dfc1c452d99837.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/2\/d\/7\/600_2d0d89ccb5e4849142dfc1c452d99837.jpeg"
-                    }, {
-                        "position": "15",
-                        "content": "15.将面条煮熟即可。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/6\/a\/1\/140_6afcd77b8eb33eb936955d7ca7b28171.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/6\/a\/1\/600_6afcd77b8eb33eb936955d7ca7b28171.jpeg"
-                    }, {
-                        "position": "16",
-                        "content": "16.下入煎好的鸡蛋。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/d\/1\/a\/140_d108b133a2482b3a063b0f89cd55a57a.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/d\/1\/a\/600_d108b133a2482b3a063b0f89cd55a57a.jpeg"
-                    }, {
-                        "position": "17",
-                        "content": "17.放入适量的盐。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/3\/f\/b\/140_3fab65f5bb5117f609eb370ecf1fed6b.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/3\/f\/b\/600_3fab65f5bb5117f609eb370ecf1fed6b.jpeg"
-                    }, {
-                        "position": "18",
-                        "content": "18.放入适量的鸡精。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/0\/8\/3\/140_08f5e011d073f8a906d611c5193cbec3.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/0\/8\/3\/600_08f5e011d073f8a906d611c5193cbec3.jpeg"
-                    }, {
-                        "position": "19",
-                        "content": "19.放葱花。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/6\/1\/f\/140_61f1e953e21392dd61cbd6262cb8f1ff.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/6\/1\/f\/600_61f1e953e21392dd61cbd6262cb8f1ff.jpeg"
-                    }, {
-                        "position": "20",
-                        "content": "20.番茄鸡蛋面就做好了。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/a\/0\/f\/140_a075109519dc9c18e9d1af52fba14eef.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/a\/0\/f\/600_a075109519dc9c18e9d1af52fba14eef.jpeg"
-                    }, {
-                        "position": "21",
-                        "content": "21.出锅即可。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/0\/5\/d\/140_05c16b9c17fe3385b0b86986c59f1a2d.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/0\/5\/d\/600_05c16b9c17fe3385b0b86986c59f1a2d.jpeg"
-                    }, {
-                        "position": "22",
-                        "content": "22.本来想拍个面条特写的，无奈一只手要拿筷子，一只手要拍照，只能将就着看吧。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/2\/c\/c\/140_2c7fc0f8a1c0930f43c774b888fb9e2c.jpeg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/2\/c\/c\/600_2c7fc0f8a1c0930f43c774b888fb9e2c.jpeg"
+                        "content": "成品",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/f\/4\/0\/140_f42908fe773e91b9b3d2ab54d4892b10.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/f\/4\/0\/600_f42908fe773e91b9b3d2ab54d4892b10.jpg"
                     }],
                     "major": [{
-                        "title": "鸡蛋",
-                        "note": "2个"
+                        "title": "瘦肉",
+                        "note": "50g"
                     }, {
-                        "title": "番茄",
-                        "note": "2个"
+                        "title": "冬瓜",
+                        "note": "150g"
                     }, {
-                        "title": "面条",
+                        "title": "干贝",
                         "note": "适量"
                     }, {
                         "title": "葱",
-                        "note": "适量"
-                    }, {
-                        "title": "油",
-                        "note": "适量"
+                        "note": "1根"
                     }, {
                         "title": "盐",
                         "note": "适量"
                     }, {
-                        "title": "鸡精",
-                        "note": "适量"
+                        "title": "姜",
+                        "note": "1小块"
+                    }, {
+                        "title": "料酒",
+                        "note": "少许"
+                    }, {
+                        "title": "地瓜粉",
+                        "note": "少许"
                     }],
                     "minor": [],
                     "cook_difficulty": "切墩(初级)",
                     "cook_time": "10~30分钟",
                     "tags": [],
-                    "vc": 19168,
+                    "vc": 50244,
                     "business_level": "0",
                     "levelid": "2"
                 }
             }, {
                 "type": 2,
                 "r": {
-                    "id": 2315918,
-                    "cookstory": "我是个不大爱吃披萨的人，之前在三亚吃过一次非常好吃的披萨打开了我对披萨的新世界；家里冰箱还剩一些海鲜食材，于是试了下海鲜披萨的方子，改良了一下更好吃了，这里贡献给大家。自己做披萨料足吃起来才过瘾，想放多少料就放多少，而且没有特别的规定食材，很简单也很好吃，动起手来试试吧～",
-                    "n": "好吃又好做的海鲜披萨",
-                    "img": "https:\/\/i1.douguo.com\/upload\/caiku\/f\/1\/2\/300_f1c63bfd6490c31549da1e3ce7f2ad72.JPG",
+                    "id": 2316585,
+                    "cookstory": "夏天来了，最近一直在研究减脂餐，番茄玉米鸡肉丸是我最近测试出一个营养又好吃的减脂餐方子，用的是鸡胸肉，对增肌减脂很有帮助，吃一盘也没什么负担，而且还比一般的减脂食材好吃一些，谁要的瘦身食谱来着？",
+                    "n": "减脂健康菜：番茄玉米鸡肉丸子",
+                    "img": "https:\/\/i1.douguo.com\/upload\/caiku\/8\/3\/c\/300_83e1c30dcacd6b8b4643c95950203abc.JPG",
                     "stc": 0,
                     "sti": 0,
                     "dc": 0,
-                    "fc": 289,
+                    "fc": 938,
                     "an": "美食家大雄",
-                    "recommend_label": "10654人看过",
-                    "pw": "5760",
-                    "ph": "3840",
+                    "recommend_label": "28438人看过",
+                    "pw": "5640",
+                    "ph": "3626",
                     "ecs": 0,
                     "hq": 0,
                     "display_ingredient": 1,
@@ -1025,67 +800,49 @@
                         "lvl": 4,
                         "is_prime": false
                     },
-                    "p": "https:\/\/cp1.douguo.com\/upload\/caiku\/f\/1\/2\/960_f1c63bfd6490c31549da1e3ce7f2ad72.JPG",
+                    "p": "https:\/\/cp1.douguo.com\/upload\/caiku\/8\/3\/c\/960_83e1c30dcacd6b8b4643c95950203abc.JPG",
                     "cookstep": [{
                         "position": "1",
-                        "content": "食材：\r\n\r\n高筋面粉150g、低筋面粉 50g、温水85g、酵母5g、糖15g、盐3g、食用油10g、马苏里拉芝士80g、青椒、红椒、蘑菇、玉米粒、培根、海鲜（你喜欢的虾、蟹棒都可以）、披萨酱（超市买现成的，没有也可用番茄沙司代替）",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/f\/7\/2\/140_f7397914390a5f2b3d336d47d9a022c2.JPG",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/f\/7\/2\/600_f7397914390a5f2b3d336d47d9a022c2.JPG"
+                        "content": "食材：\r\n鸡胸肉一块、胡萝卜一根、玉米粒100g、西红柿2个、鸡蛋一个、葱姜蒜适量、蚝油、料酒、白胡椒粉适量、盐适量。",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/d\/e\/8\/140_dea209e7e1def08b26ae967684ddbab8.JPG",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/d\/e\/8\/600_dea209e7e1def08b26ae967684ddbab8.JPG"
                     }, {
                         "position": "2",
-                        "content": "取一个容器将高筋面粉、低筋面粉、糖、盐、酵母混合，加温水搅拌成絮状（注意可以每次少加一些，多加几次以防加太多），再加入植物油揉成有筋膜的面团。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/e\/d\/f\/140_edadf655a1644cf03becba4db40b682f.JPG",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/e\/d\/f\/600_edadf655a1644cf03becba4db40b682f.JPG"
+                        "content": "鸡胸肉剁成泥，胡萝卜、小葱切碎。",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/f\/9\/2\/140_f93e0be2ec50cbfdf251935e249277c2.JPG",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/f\/9\/2\/600_f93e0be2ec50cbfdf251935e249277c2.JPG"
                     }, {
                         "position": "3",
-                        "content": "盖好保鲜膜放置一旁发酵至两倍大（不同地区时令季节温度不同所需时间也不同）。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/3\/b\/a\/140_3b2e0028f49e1b0e0bb2ce6b9c10e32a.JPG",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/3\/b\/a\/600_3b2e0028f49e1b0e0bb2ce6b9c10e32a.JPG"
+                        "content": "鸡肉、胡萝卜丁、玉米粒、小葱混合，加入一勺料酒、一勺蚝油、一个蛋清、适量白胡椒粉，用筷子顺着同一方向搅拌至上劲。",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/7\/4\/9\/140_744889b42bd6dcdf316de3464c724779.JPG",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/7\/4\/9\/600_744889b42bd6dcdf316de3464c724779.JPG"
                     }, {
                         "position": "4",
-                        "content": "在醒面的过程中，可以将青红椒、蘑菇、玉米粒、虾仁等水分大的食物放入烤箱低温150度烤5分钟，使蔬菜脱水，吃起来口感更好。\r\n\r\n将醒发好的面团揉至均匀排气，擀至圆形博饼状，放入表面抹油的披萨烤盘中，用叉子在表面均匀插一些小孔。（做饼皮比较费事，也可以一次多做几张，将饼皮放入烤箱烤3分钟，包好保鲜膜放在冰箱冷冻，下次也不用解冻，直接放食材就行）",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/c\/0\/e\/140_c0093109a4a32876d62eb1d3fc671dbe.JPG",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/c\/0\/e\/600_c0093109a4a32876d62eb1d3fc671dbe.JPG"
+                        "content": "西红柿切成块，姜和蒜切成末。\r\n\r\n锅中放入底油，加入姜蒜炒香。\r\n\r\n炒出汤来。不用盛起，直接留在锅里备用。",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/e\/c\/8\/140_ecbd132e21da3e47b527c07937994cc8.JPG",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/e\/c\/8\/600_ecbd132e21da3e47b527c07937994cc8.JPG"
                     }, {
                         "position": "5",
-                        "content": "在面饼表面涂一层批萨酱或者番茄沙司，不爱吃酸口的可以不涂，直接放一层芝士就好。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/5\/3\/1\/140_534175430f563f98eb24b6f2919f4cd1.JPG",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/5\/3\/1\/600_534175430f563f98eb24b6f2919f4cd1.JPG"
+                        "content": "烧一锅开水，挤成肉丸放入锅中煮8至10分钟。（挤肉丸可以借助大拇指的虎口处挤出一个小球形 炸丸子那种手法，实在不会介意的戴上手套用勺子舀一勺用手搓成一个小球）\r\n在西红柿汤汁锅里加入煮好的鸡肉丸。",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/7\/9\/7\/140_791afbf9a099155ba9fb888bca5ae2d7.JPG",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/7\/9\/7\/600_791afbf9a099155ba9fb888bca5ae2d7.JPG"
                     }, {
                         "position": "6",
-                        "content": "接着将海鲜平铺一层，水分蒸发掉的蔬菜再平铺一层，接着放一层厚厚的芝士。（不爱吃芝士也可以少放或者不放，随意一些）",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/f\/4\/4\/140_f46a59acd1ee6be19bec1a3aabb13084.JPG",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/f\/4\/4\/600_f46a59acd1ee6be19bec1a3aabb13084.JPG"
+                        "content": "加入一勺蚝油、适量胡椒粉、倒入适量热水（没过丸子一半就可以）煮5分钟左右，加入适量的盐。",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/b\/3\/1\/140_b31d45c91f5601d4f75d2d3893344e61.gif",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/b\/3\/1\/600_b31d45c91f5601d4f75d2d3893344e61.gif"
                     }, {
                         "position": "7",
-                        "content": "烤箱预热200度烤15分钟，就可以出炉啦。（时间温度可根据自己烤箱适当调整，注意饼的颜色别烤太深，容易糊掉。）",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/6\/e\/4\/140_6eabd327bc25950e5332bdea5e9db664.JPG",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/6\/e\/4\/600_6eabd327bc25950e5332bdea5e9db664.JPG"
+                        "content": "收汁后撒上葱花出锅啦～",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/5\/9\/4\/140_593b6aac0fe04be65d1e511d0cbc41a4.JPG",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/5\/9\/4\/600_593b6aac0fe04be65d1e511d0cbc41a4.JPG"
                     }],
                     "major": [{
-                        "title": "高筋面粉",
-                        "note": "150g"
+                        "title": "鸡胸肉",
+                        "note": "250g"
                     }, {
-                        "title": "低筋面粉",
-                        "note": "50g"
-                    }, {
-                        "title": "温水",
-                        "note": "85g"
-                    }, {
-                        "title": "酵母",
-                        "note": "5g"
-                    }, {
-                        "title": "糖",
-                        "note": "15g"
-                    }, {
-                        "title": "盐",
-                        "note": "3g"
-                    }, {
-                        "title": "食用油",
-                        "note": "10g"
-                    }, {
-                        "title": "马苏里拉芝士",
-                        "note": "80g"
+                        "title": "玉米粒",
+                        "note": "100g"
                     }, {
                         "title": "其他",
                         "note": "如下"
@@ -1094,153 +851,202 @@
                     "cook_difficulty": "",
                     "cook_time": "",
                     "tags": [],
-                    "vc": 10654,
+                    "vc": 28438,
                     "business_level": "0",
                     "levelid": "2"
                 }
             }, {
                 "type": 2,
                 "r": {
-                    "id": 2315920,
-                    "cookstory": "如果你足够有耐心，自己用手工装饰一份巧克力蛋糕，是个很有意思的事儿。\r\n\r\n将黑巧克力和葡萄糖浆调和以后，会得到软巧克力，这是一种很方便塑形的巧克力，用它可以制作出各种造型。今天这道食谱里，我用它做了几朵五瓣花，不需要特殊的工具，只需要借助生活中常用的牙签之类的小工具，就可以做出漂亮的巧克力蛋糕了！\r\n\r\n单人份的巧克力蛋糕，是不是足够精致呢？\r\n\r\n【巧克力蛋糕（手工五瓣花装饰）】\r\n(参考分量：2块)",
-                    "n": "让你的朋友们都会喊“哇！”的巧克力蛋糕",
-                    "img": "https:\/\/i1.douguo.com\/upload\/caiku\/f\/b\/6\/300_fb5a1d10ad8420235589b4f2f16e1856.jpg",
+                    "id": 2316586,
+                    "cookstory": "买了一包鲜瑶柱，小主说好久没吃泡饭了，然后再入手了鲜鲍和鲜虾做了海鲜泡饭满足他.",
+                    "n": "海鲜泡饭",
+                    "img": "https:\/\/i1.douguo.com\/upload\/caiku\/b\/e\/c\/300_be81ace1cdfe40013e235621f84f4a3c.jpg",
                     "stc": 0,
                     "sti": 0,
                     "dc": 0,
-                    "fc": 304,
-                    "an": "君之",
-                    "recommend_label": "10220人看过",
-                    "pw": "700",
-                    "ph": "933",
+                    "fc": 1677,
+                    "an": "公仔思乐冰",
+                    "recommend_label": "1677人刚刚收藏过",
+                    "pw": "600",
+                    "ph": "391",
                     "ecs": 0,
                     "hq": 0,
                     "display_ingredient": 1,
                     "rate": 0,
                     "a": {
-                        "id": "41574",
-                        "n": "君之",
+                        "id": "23051643",
+                        "n": "公仔思乐冰",
                         "v": 1,
-                        "p": "http:\/\/i1.douguo.net\/upload\/photo\/d\/c\/f\/70_u0836379302081643.jpg",
+                        "p": "http:\/\/i1.douguo.net\/upload\/photo\/6\/0\/2\/70_u45232342843716101952.jpg",
                         "lvl": 6,
-                        "is_prime": false
+                        "is_prime": true
                     },
-                    "p": "https:\/\/cp1.douguo.com\/upload\/caiku\/f\/b\/6\/960_fb5a1d10ad8420235589b4f2f16e1856.jpg",
+                    "p": "https:\/\/cp1.douguo.com\/upload\/caiku\/b\/e\/c\/960_be81ace1cdfe40013e235621f84f4a3c.jpg",
                     "cookstep": [{
                         "position": "1",
-                        "content": "首先制作蛋糕坯。这里用到的蛋糕胚和玛德琳蛋糕的制作方法是一样的，鸡蛋和糖混合搅打均匀，低筋面粉、可可粉和泡打粉混合后筛入蛋液中，拌成面糊。然后加入融化成液态的黄油，搅拌均匀即可。\r\n倒入铺了烤盘纸的边长为8英寸方烤盘中，烤箱预热至上下火190℃，中层，烤8分钟左右。出炉冷却后用直径6.5ｃｍ的圆形切模切出圆形蛋糕片（可切8片，制作2个成品蛋糕，下面的制作步骤以制作一个成品蛋糕为例）。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/9\/3\/5\/140_93524213cb79db8c4660981e61e0e955.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/9\/3\/5\/600_93524213cb79db8c4660981e61e0e955.jpg"
+                        "content": "鲜鲍切片，鲜瑶柱洗干净",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/e\/8\/9\/140_e8d262d2c2a647ee2cffb8bfca6c7239.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/e\/8\/9\/600_e8d262d2c2a647ee2cffb8bfca6c7239.jpg"
                     }, {
                         "position": "2",
-                        "content": "取4片蛋糕片，在每片蛋糕上刷朗姆酒糖浆（糖浆做法：把水放进锅里烧开，加入细砂糖，搅拌到细砂糖完全溶解以后关火。等完全冷却以后，加入朗姆酒即可），蛋糕中间涂上覆盆子果酱（或你喜欢的其他果酱，或者巧克力干纳许）作为夹心，叠起来。蛋糕坯就完成了。　",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/e\/b\/e\/140_eb6c09dacab2ee3f88a3e90cd7480f7e.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/e\/b\/e\/600_eb6c09dacab2ee3f88a3e90cd7480f7e.jpg"
+                        "content": "鲜虾去头去线",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/8\/1\/d\/140_81394bc623b46f3009de861909bb338d.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/8\/1\/d\/600_81394bc623b46f3009de861909bb338d.jpg"
                     }, {
                         "position": "3",
-                        "content": "接着制作装饰用软巧克力。黑巧克力切块放入碗里，隔热水加热并不断搅拌直到溶化。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/d\/b\/6\/140_db04be72a3103bc6f2167660b4b31f16.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/d\/b\/6\/600_db04be72a3103bc6f2167660b4b31f16.jpg"
+                        "content": "锅里放入浸过鸡腿的高汤大火烧开",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/3\/f\/d\/140_3f638540c457c4e904fc101a4470c6fd.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/3\/f\/d\/600_3f638540c457c4e904fc101a4470c6fd.jpg"
                     }, {
                         "position": "4",
-                        "content": "在溶化的黑巧克力里倒入葡萄糖浆（或玉米糖浆），搅拌均匀，放置备用。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/4\/c\/2\/140_4c4a6f7350d3a719be9e1576680a2b62.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/4\/c\/2\/600_4c4a6f7350d3a719be9e1576680a2b62.jpg"
+                        "content": "高汤开后倒入鲜虾",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/0\/5\/2\/140_05b842648c5eff5b5143a7d73e4ae932.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/0\/5\/2\/600_05b842648c5eff5b5143a7d73e4ae932.jpg"
                     }, {
                         "position": "5",
-                        "content": "裁一张长方形的油纸。油纸的长度要能绕蛋糕坯子一圈（下面称为油纸A）。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/3\/5\/7\/140_3578bbd712d124435c820c096bc407e7.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/3\/5\/7\/600_3578bbd712d124435c820c096bc407e7.jpg"
+                        "content": "再放鲜鲍片、鲜瑶柱粒",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/d\/a\/2\/140_da93fe7e3f287466eb3a0842153ea4a2.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/d\/a\/2\/600_da93fe7e3f287466eb3a0842153ea4a2.jpg"
                     }, {
                         "position": "6",
-                        "content": "趁前面做好的软巧克力还未凝固，将其装入裱花袋，裱花袋顶端剪一个小孔，在裁好的油纸A上挤出如图所示的两条巧克力。（如果已经凝固，则将巧克力直接搓长成细条放在油纸上）。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/1\/6\/c\/140_16b74c0c8603da4b3c39ab8d48e295fc.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/1\/6\/c\/600_16b74c0c8603da4b3c39ab8d48e295fc.jpg"
+                        "content": "放入料酒鱼露等调味料调味",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/3\/d\/d\/140_3dbbf9d741f574ba90fd0af2c7297a1d.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/3\/d\/d\/600_3dbbf9d741f574ba90fd0af2c7297a1d.jpg"
                     }, {
                         "position": "7",
-                        "content": "将挤好巧克力的油纸A铺在另一张较大的油纸上（下称油纸B），使巧克力夹在两张油纸中间。待巧克力凝固后，用擀面杖轻轻擀开，将巧克力擀得薄且均匀，并尽量贴合油纸A的形状。用刮板或其他工具，将擀出油纸A外面的巧克力切掉，使边缘变得整齐。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/7\/b\/5\/140_7ba85a31b0f6e0465817e1f256e4c9c5.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/7\/b\/5\/600_7ba85a31b0f6e0465817e1f256e4c9c5.jpg"
+                        "content": "其实捞出浮沫，尝试汤味适合自己的就oK了",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/f\/2\/e\/140_f2bb6c5985d6c1236f18009bb21e4aee.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/f\/2\/e\/600_f2bb6c5985d6c1236f18009bb21e4aee.jpg"
                     }, {
                         "position": "8",
-                        "content": "撕掉油纸B（如果巧克力太软，可能会粘油纸，此时需要等待一会儿，等巧克力凝固得硬一些以后，就不会粘油纸了）。将巧克力条围在之前做好的蛋糕坯上。有油纸Ａ的一边朝外。将多余的部分剪掉使它正好能围绕蛋糕一圈。之后把油纸A撕掉，用手将高出蛋糕的巧克力按倒在蛋糕顶部。蛋糕的巧克力围边部分就做好了。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/6\/9\/c\/140_69b4243062b4243bf4bdd2b7d0bdbb9c.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/6\/9\/c\/600_69b4243062b4243bf4bdd2b7d0bdbb9c.jpg"
+                        "content": "米饭放碗里，勺入海鲜高汤和海鲜",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/7\/1\/c\/140_71aa0bc0602a12fab65c22f837eb8f4c.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/7\/1\/c\/600_71aa0bc0602a12fab65c22f837eb8f4c.jpg"
                     }, {
                         "position": "9",
-                        "content": "剩下的软巧克力凝固到足够的硬度，然后分成若干个小圆球。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/4\/a\/8\/140_4a68e93f6c07ecc746190ba2d01740f8.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/4\/a\/8\/600_4a68e93f6c07ecc746190ba2d01740f8.jpg"
-                    }, {
-                        "position": "10",
-                        "content": "取一个小圆球，在筷子上做出花托的形状（如上图左）。再取一个小圆球，在油纸上擀开，然后用牙签压出纹路，成为花瓣（上图中），一共制作５个花瓣，将花瓣安装在花托上（图右）。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/3\/3\/9\/140_335375136894f08667d6b4a322627359.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/3\/3\/9\/600_335375136894f08667d6b4a322627359.jpg"
-                    }, {
-                        "position": "11",
-                        "content": "再取一个小圆球，用纱布包住，使圆球表面被压出纱布的网格纹路，成为花蕊。将花蕊安装在花朵中心，一朵五瓣花就做好了。请根据需要制作出数量足够的五瓣花。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/d\/5\/1\/140_d5ab1abbc63eeca1390a484ef576ecf1.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/d\/5\/1\/600_d5ab1abbc63eeca1390a484ef576ecf1.jpg"
-                    }, {
-                        "position": "12",
-                        "content": "将五瓣花放在蛋糕上作为装饰即可。还可以制作一些巧克力叶子。同样用软巧克力小球擀成椭圆形，用手整形成叶子形状，并在表面用牙签划出叶脉的纹路。",
-                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/d\/e\/4\/140_def3e6c316a5c111f9da3c5d498f9844.jpg",
-                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/d\/e\/4\/600_def3e6c316a5c111f9da3c5d498f9844.jpg"
+                        "content": "海鲜泡饭",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/1\/8\/b\/140_18fcac1bcbc47aa777904980d64d284b.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/1\/8\/b\/600_18fcac1bcbc47aa777904980d64d284b.jpg"
                     }],
                     "major": [{
-                        "title": "巧克力蛋糕：",
-                        "note": ""
+                        "title": "浸鸡腿高汤",
+                        "note": "适量"
                     }, {
-                        "title": "低筋面粉",
-                        "note": "40克"
+                        "title": "海鲜",
+                        "note": "自己喜欢的"
                     }, {
-                        "title": "可可粉",
-                        "note": "10克"
+                        "title": "料酒、蒜盐、鱼露",
+                        "note": "调料也随喜"
                     }, {
-                        "title": "鸡蛋",
+                        "title": "剩米饭",
+                        "note": "3碗"
+                    }],
+                    "minor": [],
+                    "cook_difficulty": "",
+                    "cook_time": "",
+                    "tags": [],
+                    "vc": 50548,
+                    "business_level": "0",
+                    "levelid": "2"
+                }
+            }, {
+                "type": 2,
+                "r": {
+                    "id": 2316591,
+                    "cookstory": "这次的主角是牛油果，也叫鳄梨。牛油果含有丰富的甘油酸、蛋白质及维他命，是天然的抗氧衰老剂，不但能软化和滋润皮肤，还能收细毛孔，皮肤表面可以形成乳状隔离层，能够有效抵御阳光照射，防止晒黑晒伤（划重点）。\n牛油果还因含有丰富的脂肪酸，所以在西餐中经常代替黄油来获得油脂的摄入，是很多减脂餐的搭配常客。\n今天我们就用牛油果做一款比德芙巧克力还丝滑，能防晒还能减脂的夏季女孩必须拥有的奶昔——牛油果香蕉奶昔",
+                    "n": "牛油果香蕉奶昔——敲好喝的夏日特饮",
+                    "img": "https:\/\/i1.douguo.com\/upload\/caiku\/e\/e\/d\/300_eee26c6b5520bd763d6dd5ef45048a1d.jpg",
+                    "stc": 0,
+                    "sti": 0,
+                    "dc": 0,
+                    "fc": 2160,
+                    "an": "沙小囡",
+                    "recommend_label": "2160人刚刚收藏过",
+                    "pw": "800",
+                    "ph": "1200",
+                    "ecs": 0,
+                    "hq": 0,
+                    "display_ingredient": 1,
+                    "rate": 0,
+                    "a": {
+                        "id": "18208293",
+                        "n": "沙小囡",
+                        "v": 1,
+                        "p": "http:\/\/i1.douguo.net\/upload\/photo\/4\/d\/c\/70_u7028868072226075101.jpg",
+                        "lvl": 6,
+                        "is_prime": true
+                    },
+                    "p": "https:\/\/cp1.douguo.com\/upload\/caiku\/e\/e\/d\/960_eee26c6b5520bd763d6dd5ef45048a1d.jpg",
+                    "cookstep": [{
+                        "position": "1",
+                        "content": "准备食材。香蕉最好选用熟透的。",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/8\/a\/a\/140_8a4ece8e10f7534b930e3bac16f2e8fa.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/8\/a\/a\/600_8a4ece8e10f7534b930e3bac16f2e8fa.jpg"
+                    }, {
+                        "position": "2",
+                        "content": "将准备好的香蕉切成片。",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/e\/3\/4\/140_e38e38998d5d6d25ed2edb7d1e8b6dd4.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/e\/3\/4\/600_e38e38998d5d6d25ed2edb7d1e8b6dd4.jpg"
+                    }, {
+                        "position": "3",
+                        "content": "牛油果去皮对切开后再切成小块。",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/b\/5\/2\/140_b5e9a1052663e47e41766f169dae0fa2.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/b\/5\/2\/600_b5e9a1052663e47e41766f169dae0fa2.jpg"
+                    }, {
+                        "position": "4",
+                        "content": "将切好的香蕉加入果汁杯中。",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/d\/6\/5\/140_d6591519f1d40e1bdfa668626ff58245.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/d\/6\/5\/600_d6591519f1d40e1bdfa668626ff58245.jpg"
+                    }, {
+                        "position": "5",
+                        "content": "再加入牛油果。",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/7\/6\/5\/140_7659beb6e1ee7a22814bcf969fb8f265.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/7\/6\/5\/600_7659beb6e1ee7a22814bcf969fb8f265.jpg"
+                    }, {
+                        "position": "6",
+                        "content": "再倒入酸奶（喜欢吃甜的可以加少许蜂蜜）",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/4\/7\/2\/140_477c4e47dd38e5ea9aa80d6be6ee5882.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/4\/7\/2\/600_477c4e47dd38e5ea9aa80d6be6ee5882.jpg"
+                    }, {
+                        "position": "7",
+                        "content": "快速按两下果汁杯盖子上的启动按钮，然后将果汁杯翻转，杯盖向下。",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/e\/b\/b\/140_eb2302147a26b4f9febccb185915064b.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/e\/b\/b\/600_eb2302147a26b4f9febccb185915064b.jpg"
+                    }, {
+                        "position": "8",
+                        "content": "程序结束后，找一个好看的杯子，倒出奶昔。",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/0\/2\/5\/140_0286542576637f5e7a17f1c384924845.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/0\/2\/5\/600_0286542576637f5e7a17f1c384924845.jpg"
+                    }, {
+                        "position": "9",
+                        "content": "最后再装饰一下，开始享用吧。",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/2\/4\/e\/140_2462f3f8163f1c024698e04383503f7e.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/2\/4\/e\/600_2462f3f8163f1c024698e04383503f7e.jpg"
+                    }, {
+                        "position": "10",
+                        "content": "保证喝过一次就上瘾！",
+                        "thumb": "https:\/\/cp1.douguo.com\/upload\/caiku\/0\/8\/a\/140_0865395aa2d3b0be73f81090c7f5d49a.jpg",
+                        "image": "https:\/\/cp1.douguo.com\/upload\/caiku\/0\/8\/a\/600_0865395aa2d3b0be73f81090c7f5d49a.jpg"
+                    }],
+                    "major": [{
+                        "title": "牛油果",
                         "note": "1个"
                     }, {
-                        "title": "细砂糖",
-                        "note": "35克"
+                        "title": "香蕉",
+                        "note": "2个"
                     }, {
-                        "title": "黄油",
-                        "note": "45克"
+                        "title": "酸奶",
+                        "note": "400克"
                     }, {
-                        "title": "泡打粉",
-                        "note": "1\/2小勺（约２.５克）"
-                    }, {
-                        "title": "夹心：",
-                        "note": ""
-                    }, {
-                        "title": "覆盆子果酱或草莓果酱",
-                        "note": "50克"
-                    }, {
-                        "title": "朗姆酒糖浆（不需全部用完）：",
-                        "note": ""
-                    }, {
-                        "title": "水",
-                        "note": "75克"
-                    }, {
-                        "title": "细砂糖",
-                        "note": "60克"
-                    }, {
-                        "title": "朗姆酒",
-                        "note": "25克"
-                    }, {
-                        "title": "巧克力装饰：",
-                        "note": ""
-                    }, {
-                        "title": "黑巧克力",
-                        "note": "1５0克"
-                    }, {
-                        "title": "葡萄糖浆",
-                        "note": "６0克"
+                        "title": "蜂蜜",
+                        "note": "根据个人口味"
                     }],
                     "minor": [],
                     "cook_difficulty": "切墩(初级)",
-                    "cook_time": "1小时以上",
+                    "cook_time": "10分钟左右",
                     "tags": [],
-                    "vc": 10220,
+                    "vc": 72600,
                     "business_level": "0",
                     "levelid": "2"
                 }

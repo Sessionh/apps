@@ -18,10 +18,10 @@
         <meSwiper class="me-swiper" :height="247/$store.state.rem"  :imageList="swiperList" :loop="true" :loopTime="loopTime"></meSwiper>
         <menuType class="menuType"></menuType>
         <div class="show-foot">
-            <div class="foot-item">
+            <div class="foot-item" v-for="item in app.result.header.noteTags" :key="item.id" :style="{backgroundColor: item.backgroundColor}">
                 <div class="top-title">
                     <div class="title">
-                        秀早餐
+                        {{item.name}}
                     </div>
                     <div class="icon">
                         <i class="iconfont icon-zhengque"></i>
@@ -29,47 +29,11 @@
 
                 </div>
                 <div class="bottom-content">
-                    3714人在记录
+                    {{item.description}}
 
                 </div>
 
             </div>
-
-             <div class="foot-item" style="background-color: #58b15d">
-                <div class="top-title">
-                    <div class="title">
-                        秀午餐
-                    </div>
-                    <div class="icon">
-                        <i class="iconfont icon-zhengque"></i>
-                    </div>
-
-                </div>
-                <div class="bottom-content">
-                    288人在记录
-
-                </div>
-
-            </div>
-
-
-             <div class="foot-item">
-                <div class="top-title">
-                    <div class="title">
-                        秀晚餐
-                    </div>
-                    <div class="icon">
-                        <i class="iconfont icon-zhengque"></i>
-                    </div>
-
-                </div>
-                <div class="bottom-content">
-                    110人在记录
-
-                </div>
-
-            </div>
-
         </div>
 
         <div class="hot_activity">
@@ -77,22 +41,43 @@
                 <div class="left-hot">
                   {{hotEvents.title}}
                 </div>
-
-                <div class="see_more">
-                    更多 >
-                </div>
+                <span class="see_more">更多</span>
+                <span class="icon">
+                    <i class="iconfont icon-xiangyoujiantou"></i>
+                </span>
+                 
 
             </span>
             <div class="hot_shop">
                 <div class="hot_shop_item" v-for="item in hotEvents.events" :key="item.id">
-                    <img :src="item.image">
+                    <div class="image">
+                        <img :src="item.image">
+                    </div>
+                    
                     <div class="content">
                         {{item.name}}
                     </div>
 
 
                 </div>
+                <div class="right_content"> 
+                   &nbsp;
+                </div>
                
+            </div>
+
+        </div>
+
+        <div class="today_recommend">
+            <div class="title">
+               今日推荐
+            </div>
+            <div class="recommend_item">
+                <div class="user_img">
+                    <img>
+                    <span></span>
+                </div>
+
             </div>
 
         </div>
@@ -141,6 +126,7 @@ export default {
     },
     data() {
         return {
+            app: '',
             loopTime: 3000,
             scrollTop: 0,
             shopList: [],
@@ -227,6 +213,7 @@ export default {
     created() {
         console.log(22)
         console.log(appJSON);
+        this.app = appJSON;
        
         let dsps =  appJSON.result.header.dsps
         let hot_events = appJSON.result.header.hot_events;
@@ -359,44 +346,107 @@ export default {
                     flex: 1;
                     font-size: rem(18);
                     text-align: left;
+                    font-weight: bold;
                 }
                 .see_more {
                     font-size: rem(14);
-                     color: #c9c9c9;
+                    color: #c9c9c9;
+                    font-weight: 500;
+                    display: flex;
+                    align-items: center;
+                    //  
+                    
+                    .more_title {
+                       
+                    }
+                    .iconfont {
+                       font-size: rem(14);
+                       line-height: rem(14);
+                       
+                    //   
+                       
+                        
+                    }
                 }
+                .icon {
+                    line-height: 0;
+                     color: #c9c9c9;
+                    // transform: translateY(-50%);
+                    .iconfont {
+                        font-size: rem(13);
+                    }
+
+                }
+                
             }
             // .hot_shop::-webkit-scrollbar { width: 0 !important }
             .hot_shop {
                
                 
                 display: flex;
-                white-space: nowrap;
-                overflow-x: auto;
-                height: auto;
+                // white-space: nowrap;
+                overflow-x: scroll;
+                // height: 100%;
                 padding-left: rem(20);
                 .hot_shop_item {
                     width: rem(232);
                     margin-right: rem(11);
-                    img {
+                  
+                    .image {
                         height: rem(131);
                         width: rem(232);
+                       
+                    }
+                    img {
                         border-radius: rem(10);
+                        width: 100%;
+                        height: 100%;
                     }
                     .content {
+                        margin-top: rem(11);
                         font-weight: bold;
                         font-size: rem(15);
                         text-align: left;
-                        overflow: hidden;
-                        text-overflow:ellipsis;
-                        white-space: nowrap;
-                        -webkit-line-clamp: 2;
-                       
+                        position: relative;
+                        // overflow: hidden;
+                        // text-overflow:ellipsis;
+                        // white-space: nowrap;
+                        // -webkit-line-clamp: 2;
+                        // &::after {
+                        //     content:"...";
+                        //     font-weight:bold;
+                        //     position:absolute;
+                        //     bottom:0;
+                        //     right:0;
+                        //     padding:0 20px 1px 45px;                        
+                        // }
                        
                     }
+                   
+                   
                      
                 }
+                .right_content {
+                    width: rem(10);
+                    height: rem(10);
+                }
+                .hot_shop_item:last-child {
+                    padding-right: rem(10);
+                }
+               
             }
+          
             
+        }
+
+        .today_recommend {
+            padding: rem(45) rem(20) rem(30) rem(20);
+            
+            .title {
+                font-size: rem(18);
+                text-align: left;
+                font-weight: bold;
+            }
         }
         
     
@@ -409,21 +459,6 @@ export default {
 
 
 }
-
-::webkit-scrollbar{
-    width: 0;
-
-}   //1 滚动条整体部分，其中的属性有width,height,background,border（就和一个块级元素一样）等。
-::webkit-scrollbar-button{
-    display:none
-} //2 滚动条两端的按钮。可以用display:none让其不显示，也可以添加背景图片，颜色改变显示效果。
-::webkit-scrollbar-track{
-    display:none
-}   //3  外层轨道。可以用display:none让其不显示，也可以添加背景图片，颜色改变显示效果。
-// ::webkit-scrollbar-track-piece //4  内层轨道，滚动条中间部分（除去）。
-// ::webkit-scrollbar-thumb  //5  滚动条里面可以拖动的那部分
-// ::webkit-scrollbar-corner  //6  边角
-// ::webkit-resizer  //7   定义右下角拖动块的样式
 
 </style>
 

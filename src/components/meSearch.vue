@@ -111,7 +111,7 @@ input:focus{
     left: 5px;
     color: rgba(0,0,0,0.65);
     line-height: 0;
-    transform: translateY(-50%);
+    // transform: translateY(-50%);
 }
 
 

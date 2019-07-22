@@ -1,7 +1,7 @@
 <template>
 
     <div class="meSwipe" :style="{height: `${height}rem`}"  @touchstart="touchstart" @touchmove="touchmove" @touchend="touchend">
-        <div class="swipe-item" :class="item.moveClass"  v-for="(item, indexItem) in imageList" :key="indexItem"  :style="{transform: `translate3d(${item.rem}px, 0px, 0px) scaleY(${item.scaleY})`}">
+        <div  class="swipe-item" :class="item.moveClass"  v-for="(item, indexItem) in imageList" :key="indexItem"  :style="{transform: `translate3d(${item.rem}px, 0px, 0px) scaleY(${item.scaleY})`}">
             <img :src="item.img">
         </div>
         <div class="index-icon">
@@ -15,7 +15,7 @@
 export default {
     name: 'meSwiper',
     props: {
-        imageList: {
+        imageListDel: {
             type: Array,
 
         },
@@ -45,7 +45,20 @@ export default {
             isLoading: false, // 是否加载中
             timer: '', // 定时器
             angle: 0, 
-          
+            imageList: [
+                // {
+                //     img: "https://i1.douguo.com/upload/banner/b/6/2/b603ff2babc0a3261931e1915a3641b2.jpg",
+                //     rem: 0
+                // },
+                // {
+                //     img: "https://i1.douguo.com/upload/banner/b/b/2/bb492d97e1f355f16681f43aa117fe72.jpg",
+                //     rem: 0
+                // },
+                // {
+                //     img: "https://i1.douguo.com/upload/banner/0/7/e/072557b239046cae7f57c72891407b1e.jpg",
+                //     rem: 0
+                // }
+            ]
 
         }
     },
@@ -73,7 +86,7 @@ export default {
                 let moveY = ev.changedTouches[0].pageY - this.startY;
                 this.endX = moveX
                
-             
+              
                 // console.log(Math.abs(Math.atan2(moveY,moveX)))
                 let angle = Math.abs(Math.atan2(moveY,moveX))
                
@@ -82,6 +95,7 @@ export default {
 
                 if (!this.imageList[this.index].moveClass && !(angle > 0.6 && angle < 2.4)) { // 判断是否动画完成
                     if (moveX > 0) { // 向右移动
+                        // console.log(moveX, moveY)
                         // console.log(this.imageList[this.index])
                         if (this.index <= 0) {
                             this.endIndex = this.imageList.length - 1
@@ -90,6 +104,8 @@ export default {
                         }
                         this.imageList[this.index].rem = moveX
                         this.imageList[this.endIndex].rem =  moveX - this.width
+                        // console.log(this.imageList[this.index].rem, this.imageList[this.endIndex].rem)
+                     
 
                     
 
@@ -102,6 +118,7 @@ export default {
 
                         this.imageList[this.index].rem = moveX
                         this.imageList[this.endIndex].rem =  moveX + this.width
+                      
 
 
                     }
@@ -134,7 +151,8 @@ export default {
 
         },
         touchend() {
-            if (this.imageList.length > 1 && !(this.angle > 0.6 && this.angle < 2.4)) { 
+            
+            if (this.imageList.length > 1 && !(this.angle > 0.6 && this.angle < 2.4) && this.endX != 0) { 
                 this.imageList[this.index].moveClass = 'swiperMove' // 加载动画
                 this.imageList[this.endIndex].moveClass =  'swiperMove' 
                 this.imageList[this.index].scaleY = 1
@@ -232,7 +250,22 @@ export default {
     },
     mounted() {
         
+        this.imageList = JSON.parse(JSON.stringify(this.imageListDel))
 
+        this.width = window.innerWidth;
+        this.imageList.forEach((res, i) => {
+            res.scaleY = 1;
+            res.moveClass = '';
+            res.rem = 0
+
+            if (i == 0) {
+                res.rem = 0
+            } else {
+                res.rem = this.width
+            }
+        })
+       
+       
         if (this.loop && this.imageList.length > 1) {
             this.timer = setInterval(() => { // 轮播时间最小 1s
                 this.loopFun()
@@ -247,22 +280,10 @@ export default {
        
 
     },
-    created() {
-        this.width = window.innerWidth;
-        this.imageList.forEach((res, i) => {
-            res.scaleY = 1;
-            res.moveClass = '';
-            res.rem = 0
-
-            if (i == 0) {
-                res.rem = 0
-            } else {
-                res.rem = this.width
-            }
-        })
-       
-        
-
+    watch: {
+        imageListDel() {
+            this.imageList = this.imageListDel
+        }
     },
     destroyed() {
         clearInterval(this.timer)

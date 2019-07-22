@@ -15,7 +15,7 @@
    
 
     <meScroll ref="mescroll" class="content_list"  @downCallback="downCallback" @upCallback="upCallback">
-        <meSwiper class="me-swiper" :height="247/$store.state.rem"  :imageList="swiperList" :loop="true" :loopTime="loopTime"></meSwiper>
+        <meSwiper class="me-swiper" :height="247/$store.state.rem"  :imageListDel="swiperList" :loop="true" :loopTime="loopTime" v-model="pops"></meSwiper>
         <menuType class="menuType"></menuType>
         <div class="show-foot">
             <div class="foot-item" v-for="item in app.result.header.noteTags" :key="item.id" :style="{backgroundColor: item.backgroundColor}">
@@ -70,37 +70,37 @@
 
         <div class="today_recommend">
             <div class="title">
-               今日推荐
+               {{featuresList.title}}
             </div>
-            <div class="recommend_item">
-                <div class="user_img">
-                    <img>
-                    <span></span>
+            <div class="recommend_item" v-for="(item, index) in featuresList.list" :key="index">
+                <div class="item_header">
+                    <div class="user_img">
+                        <img :src="item.r.a.p">
+                    </div>
+                    <div class="user_name">
+                        <span class="name">{{item.r.a.n}}</span> 
+                        <span class="level">LV.{{item.r.a.lvl}}</span>
+                    </div>
+
                 </div>
+               
+                <div class="title">
+                    {{item.r.n}}
+                </div>
+                <div class="image" >
+                    <img  :src="item.r.p">
+                </div>
+                
+                <div class="see_num">
+                    {{item.r.recommend_label}}
+                </div>
+               
 
             </div>
 
         </div>
-        <div class="lis">开始看达克赛德</div>
-        <div class="lis">开始看达克赛德</div>
-        <div class="lis">开始看达克赛德</div>
-        <div class="lis">开始看达克赛德</div>
-        <div class="lis">开始看达克赛德</div>
-        <div class="lis">开始看达克赛德</div>
-
-        <div class="lis">开始看达克赛德</div>
-        <div class="lis">开始看达克赛德</div>
-        <div class="lis">开始看达克赛德</div> 
-        <div class="lis">开始看达克赛德</div>
-
-        <div class="lis">开始看达克赛德</div>
-        <div class="lis">开始看达克赛德</div>
-        <div class="lis">开始看达克赛德</div>
-        <div class="lis">开始看达克赛德</div>
-        <div class="lis">开始看达克赛德</div>
-        <div class="lis">开始看达克赛德</div>
-
-        <div class="lis">开始看达克赛德</div>
+        <div class="lis">--没有更多--</div>
+     
 
     </meScroll>
    
@@ -127,13 +127,15 @@ export default {
     data() {
         return {
             app: '',
-            loopTime: 3000,
+            pops: 33,
+            loopTime: 4000,
             scrollTop: 0,
             shopList: [],
             isNothing: false,
             
             swiperList: [], // 轮播图
             hotEvents: [], // 热门活动
+            featuresList: [], // 今日推荐
         }
 
     },
@@ -167,6 +169,7 @@ export default {
         upCallback(page, mescroll) {
             console.log(page)
             this.isNothing = false; 
+            mescroll.endSuccess('')
             // setTimeout(() => {
             //     let config = {
             //         params: {
@@ -222,8 +225,10 @@ export default {
             res.img = res.d.i;
 
         })
+        console.log(dsps)
         this.swiperList = dsps
         this.hotEvents = hot_events
+        this.featuresList = appJSON.result.features_list
        
        
      
@@ -441,11 +446,69 @@ export default {
 
         .today_recommend {
             padding: rem(45) rem(20) rem(30) rem(20);
-            
             .title {
                 font-size: rem(18);
                 text-align: left;
                 font-weight: bold;
+            }
+            .recommend_item {
+                margin-top: rem(32);
+                .item_header {
+                    display: flex;
+                    align-items: center;
+                    .user_img {
+                        img {
+                            width: rem(33);
+                            height: rem(33);
+                            border-radius: rem(16.5)
+                        }
+                    }
+                    .user_name {
+                    
+                        .name {
+                            font-size: rem(13);
+                            padding: 0 rem(10);
+
+                        }
+                        .level {
+                            font-size: rem(10);
+                            color: #dcc080;
+                            font-weight: bold;
+
+                        }
+
+                    }
+                   
+
+                }
+                .title {
+                    font-size: rem(16);
+                    margin-top: rem(8);
+                    font-weight: bold;
+
+                }
+                .image {
+                  
+                    margin: rem(10) 0;
+                    width: auto;
+                    height: rem(208);
+                    // background-size: 100% 100%;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        border-radius: rem(10);
+                    }
+
+                }
+                .see_num {
+                    font-size: rem(10);
+                    color: #999999;
+                    text-align: left;
+
+                }
+               
+               
+
             }
         }
         

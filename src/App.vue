@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <keep-alive :include="cachePage">
+        <keep-alive :include="$store.state.cachePage">
             <router-view/>
         </keep-alive>
   

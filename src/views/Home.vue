@@ -151,12 +151,21 @@ export default {
         window.addEventListener('scroll', this.handleScroll)
     },
     methods: {
+        
         getData() {
-            this.$http.get('http://192.168.1.166:3006/users').then(res => {
+            let config = {
+                _session: '1563936447-7FBA1CC6-6174-4661-B24F-D46698CC00B3',
+                agent_id: '9192d867e6e1d435ec3d8835d3c04991',
+                direction: 5,
+                request_count: 2,
+                signature: '7d6b367f9ce445573ffc9ffb427f0ed7',
+                signtime: '1563936448',
+                user_id: '24000354'
+
+            }
+            this.$http.post('personalized/home/0/20', config).then(res => {
                 console.log(res)
-                if (res.data) {
-                    this.list = res.data;
-                }
+               
             })
 
         },
@@ -232,7 +241,7 @@ export default {
        
        
      
-        // this.getData();
+        this.getData();
     },
     destroyed() {
        

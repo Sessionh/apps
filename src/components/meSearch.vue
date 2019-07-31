@@ -2,7 +2,7 @@
     <div class="me-search">
 
         <span class="ant-input-password ant-input-affix-wrapper">
-            <input placeholder="请输入" action="click" type="password" class="ant-input" value="">
+            <input placeholder="请输入" action="click" type="search" class="ant-input" value="">
             <span class="ant-input-suffix">
                 <i class="iconfont icon-sousuo1 anticon"></i>
             </span>

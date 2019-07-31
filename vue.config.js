@@ -1,7 +1,7 @@
 // vue.config.js
 const path = require('path');
 const host = '192.168.1.166';
-const url = 'http://m.agenttest.51kezhi.cn';
+const url = 'http://api.douguo.net';
 
 module.exports = {
     publicPath: './',
@@ -9,7 +9,7 @@ module.exports = {
         port: 8082,
         host: host,
         proxy: {
-            '/app': {
+            '/personalized/': {
                 target: url,
                 changeOrigin: true,
             },

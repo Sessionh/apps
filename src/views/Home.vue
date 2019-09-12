@@ -1,7 +1,7 @@
 <template>
   <div class="home" id="searchBar" >
     <!-- <meNavTar pathName="about" title="台况信息"></meNavTar> -->
-    <header>
+    <header v-if="!loadding">
         <i class="iconfont icon-tianjiajiahaowubiankuang"></i>
         <meSearch style="flex: 1"></meSearch>
         <i class="iconfont icon-fenlei"></i>
@@ -14,7 +14,7 @@
     </header>
    
 
-    <meScroll ref="mescroll" class="content_list"  @downCallback="downCallback" @upCallback="upCallback">
+    <meScroll v-if="!loadding" ref="mescroll" class="content_list"  @downCallback="downCallback" @upCallback="upCallback">
         <meSwiper class="me-swiper" :height="247/$store.state.rem"  :imageListDel="swiperList" :loop="true" :loopTime="loopTime" v-model="pops"></meSwiper>
         <menuType class="menuType"></menuType>
         <div class="show-foot">
@@ -99,10 +99,18 @@
             </div>
 
         </div>
+        <!-- <div class="border-top-left-red-1px" style="height: 200px;width: 100vw">
+            33
+
+        </div> -->
         <div class="lis">--没有更多--</div>
      
 
     </meScroll>
+
+    <iframe v-if="loadding" class="iframe" src="test.html"></iframe>
+
+   
    
   </div>
 </template>
@@ -115,6 +123,8 @@ import meSwiper from '../components/meSwiper'
 import menuType from '../components/menuType';
 import meSearch from '../components/meSearch';
 import appJSON from './lib/app';
+
+import { setTimeout } from 'timers';
 export default {
     name: 'homeRouter',
     components: {
@@ -122,7 +132,7 @@ export default {
         meScroll,
         meSwiper,
         menuType,
-        meSearch
+        meSearch,
     },
     data() {
         return {
@@ -136,6 +146,7 @@ export default {
             swiperList: [], // 轮播图
             hotEvents: [], // 热门活动
             featuresList: [], // 今日推荐
+            loadding: true, 
         }
 
     },
@@ -238,7 +249,10 @@ export default {
         this.swiperList = dsps
         this.hotEvents = hot_events
         this.featuresList = appJSON.result.features_list
-       
+        setTimeout(() => {
+            this.loadding = false
+
+        }, 2000)
        
      
         this.getData();
@@ -251,6 +265,15 @@ export default {
 <style lang="scss" scoped>
 
 .home {
+    .iframe {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 1000;
+        overflow: hidden;
+    }
    
     header {
         display: flex;

@@ -10,6 +10,7 @@
 </template>
 <script>
 import { about } from '../assets/skeleton.js'
+import {setSkeleton} from '../utils/util'
 export default {
     name: 'about',
     data() {
@@ -38,7 +39,8 @@ export default {
         }
     },
     created() {
-        this.setSkeleton('about')
+        setSkeleton('about', about, this)
+        // this.setSkeleton('about')
         
     },
     destroyed() {

@@ -7,7 +7,8 @@ export default new Vuex.Store({
     state: {
         rem: 82.8, // iPhone 6尺寸的根元素大小基准值
         cachePage: [], // 缓存keep-alive
-        isMenu: true, // 
+        isMenu: true, // 显示底部导航
+        isSke: true, // 显示骨架屏
 
     },
     mutations: {

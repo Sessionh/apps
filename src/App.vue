@@ -4,7 +4,7 @@
             <router-view/>
         </keep-alive>
   
-        <meMenu :list="menuList" :menuIndex="menuIndex" @onItem="itemClick" color="#88d698"></meMenu>
+        <meMenu v-show="$store.state.isMenu" :list="menuList" :menuIndex="menuIndex" @onItem="itemClick" color="#88d698"></meMenu>
         
   </div>
 </template>
@@ -61,8 +61,11 @@ export default {
         itemClick(id) {
             this.menuIndex = id;
             console.log(this.menuList[id])
+           
             if (this.menuList[id].url){
+              
                 this.$router.push(this.menuList[id].url)
+                sessionStorage.setItem('pathId', id)
 
             }
             
@@ -73,6 +76,11 @@ export default {
 
     },
     created() {
+        console.log(this.$store.state.isMenu)
+        let id = sessionStorage.getItem('pathId')
+        if (id) {
+            this.menuIndex = id
+        }
      
     }
 }

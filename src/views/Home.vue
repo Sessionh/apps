@@ -15,7 +15,7 @@
    
 
     <meScroll v-if="!loadding" ref="mescroll" class="content_list"  @downCallback="downCallback" @upCallback="upCallback">
-        <meSwiper class="me-swiper" :height="247/$store.state.rem"  :imageListDel="swiperList" :loop="true" :loopTime="loopTime" v-model="pops"></meSwiper>
+        <meSwiper class="me-swiper" :height="247/$store.state.rem"  :imageListDel="swiperList" :loop="false" :loopTime="loopTime" v-model="pops"></meSwiper>
         <menuType class="menuType"></menuType>
         <div class="show-foot">
             <div class="foot-item" v-for="item in app.result.header.noteTags" :key="item.id" :style="{backgroundColor: item.backgroundColor}">
@@ -99,16 +99,13 @@
             </div>
 
         </div>
-        <!-- <div class="border-top-left-red-1px" style="height: 200px;width: 100vw">
-            33
-
-        </div> -->
+       
         <div class="lis">--没有更多--</div>
      
 
     </meScroll>
 
-    <iframe v-if="loadding" class="iframe" src="test.html"></iframe>
+    <!-- <iframe v-if="loadding" class="iframe" src="test.html"></iframe> -->
 
    
    
@@ -146,7 +143,7 @@ export default {
             swiperList: [], // 轮播图
             hotEvents: [], // 热门活动
             featuresList: [], // 今日推荐
-            loadding: true, 
+            loadding: false, 
         }
 
     },
@@ -230,12 +227,11 @@ export default {
             
 
            
-        },
+        }
     },
-
     created() {
         console.log(22)
-        console.log(appJSON);
+        
         this.app = appJSON;
        
         let dsps =  appJSON.result.header.dsps
@@ -245,20 +241,21 @@ export default {
             res.img = res.d.i;
 
         })
-        console.log(dsps)
+       
         this.swiperList = dsps
         this.hotEvents = hot_events
         this.featuresList = appJSON.result.features_list
-        setTimeout(() => {
-            this.loadding = false
 
-        }, 2000)
        
+        document.getElementById('skeleton_home').style.display = 'inline';
+        setTimeout(() => {
+            document.getElementById('skeleton_home').style.display = 'none';
+            this.$store.commit('setMenu', true)
+        }, 1000)
      
         this.getData();
     },
     destroyed() {
-       
     }
 }
 </script>

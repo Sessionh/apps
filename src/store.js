@@ -7,6 +7,7 @@ export default new Vuex.Store({
     state: {
         rem: 82.8, // iPhone 6尺寸的根元素大小基准值
         cachePage: [], // 缓存keep-alive
+        isMenu: true, // 
 
     },
     mutations: {
@@ -31,6 +32,10 @@ export default new Vuex.Store({
                 })
             }
 
+        },
+        // 设置底部菜单栏 显示隐藏
+        setMenu(state, val) {
+            state.isMenu = val
         }
 
     },

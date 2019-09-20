@@ -18,8 +18,28 @@ const service = axios.create({
 })
 Vue.prototype.$http = service;
 
+
 new Vue({
     router,
     store,
-    render: h => h(App)
+    render: h => h(App),
+    mounted() {
+     
+        let urls = window.location.href.split('#/')
+        if (urls[1] !== 'home') {
+            const homeDOM = document.getElementById('skeleton_home')
+            if (homeDOM) {
+                homeDOM.style.display = 'none'
+            }
+
+        }
+    
+        
+       
+      
+        
+     
+       
+
+    },  
 }).$mount('#app')

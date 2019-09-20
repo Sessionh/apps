@@ -80,6 +80,7 @@ export default {
     width: 100%;
     bottom: 0;
     background: #fff;
+    // animation: isShow .3s  linear forwards;
   
     .content {
         display: flex;
@@ -120,6 +121,14 @@ export default {
    
     
     
+}
+@keyframes isShow {
+    from {
+        transform: translateY(rem(60))
+    }
+    to {
+         transform: 0
+    }
 }
 .select {
     color: #ff8815;

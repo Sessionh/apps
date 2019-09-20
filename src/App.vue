@@ -79,7 +79,7 @@ export default {
         console.log(this.$store.state.isMenu)
         let id = sessionStorage.getItem('pathId')
         if (id) {
-            this.menuIndex = id
+            this.menuIndex = parseInt(id)
         }
      
     }

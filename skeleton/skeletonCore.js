@@ -5,6 +5,7 @@ const {parse, toPlainObject, fromPlainObject, generate} = require('css-tree');
 const {sleep, genScriptContent, htmlMinify, collectImportantComments, createLog} = require('./util');
 const {defaultOptions} = require('./config/config');
 
+
 const puppeteer = require('puppeteer-core');
 const execPath = 'C:/Users/11974/AppData/Local/Google/Chrome/Application/chrome.exe'; // chrome 路径 
 
@@ -275,9 +276,9 @@ class SkeletonCore {
                 </style>
                 $$html$$
          `
-         if (name === detailPath) {
+        if (name === detailPath) {
             shellHtml =  shellHtmlHome 
-         }
+        }
         shellHtml = shellHtml
             .replace('$$css$$', finalCss)
             .replace('$$html$$', cleanedHtml);

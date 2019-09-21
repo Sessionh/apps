@@ -7,7 +7,7 @@ const {defaultOptions} = require('./config/config');
 
 
 const puppeteer = require('puppeteer-core');
-const execPath = 'C:/Users/11974/AppData/Local/Google/Chrome/Application/chrome.exe'; // chrome 路径 
+
 
 class SkeletonCore {
 
@@ -34,7 +34,7 @@ class SkeletonCore {
                 devtools: openDevTools,
                 // 关闭headless模式, 不会打开浏览器
                 headless: headless,
-                executablePath: execPath
+                executablePath: options.execPath
             });
             
         } catch (err) {

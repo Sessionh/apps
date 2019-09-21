@@ -70,7 +70,7 @@ class SkeletonCore {
         const stylesheetAstObjects = {};
         const stylesheetContents = {};
         const page = await this.newPage();
-        const {cookies, preview, waitForSelector} = this.options;
+        const {cookies, preview, isNext, waitForSelector} = this.options;
 
         /**************************page 事件****************************/
         await page.setRequestInterception(true);
@@ -125,7 +125,7 @@ class SkeletonCore {
        
 
         // 预览模式
-        // if (preview) return Promise.resolve(true);
+        if (!isNext) return Promise.resolve(true);
 
         let {styles, cleanedHtml} = await page.evaluate(() => Skeleton.getHtmlAndStyle());
         

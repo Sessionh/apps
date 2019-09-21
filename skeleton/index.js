@@ -3,8 +3,9 @@ const SkeletonBuilder = require('./skeletonCore');
 // test code
 const fs = require('fs');
 let skeletonBuilder = new SkeletonBuilder({
-    preview: false,
+    preview: true, // 是否调出浏览器
     defer: 5000,
+    isNext: true, // 预览 是否生成骨架屏
     device: 'iPhone 6',
     loading: 'shine',
     image: {
@@ -20,7 +21,7 @@ let skeletonBuilder = new SkeletonBuilder({
 (async () => {
     let detailPath = 'home' // 首页
         
-    const baseUrl = 'http://192.168.1.166:8082/#/'
+    const baseUrl = 'http://172.17.35.98:8082/#/'
     let urlList = ['home', 'about']
        
 

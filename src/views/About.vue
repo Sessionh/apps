@@ -10,7 +10,7 @@
 </template>
 <script>
 import { about } from '../assets/skeleton.js'
-import {setSkeleton} from '../utils/util'
+import {setSkeleton, removeSkeleton} from '../utils/util'
 export default {
     name: 'about',
     data() {
@@ -19,27 +19,34 @@ export default {
         }
     },
     methods: {
-        setSkeleton(name) {
-            const childNode = document.createElement('div')
-            childNode.id = `skeleton_${name}`
-            childNode.style = "position: fixed;top: 0; z-index: 10000;background: #fff"
-            childNode.innerHTML = about
-            const appDOM = document.body
-            appDOM.insertBefore(childNode,  appDOM.childNodes[0])
+        // setSkeleton(name) {
+        //     const childNode = document.createElement('div')
+        //     childNode.id = `skeleton_${name}`
+        //     childNode.style = "position: fixed;top: 0; z-index: 10000;background: #fff"
+        //     childNode.innerHTML = about
+        //     const appDOM = document.body
+        //     appDOM.insertBefore(childNode,  appDOM.childNodes[0])
 
-            document.getElementById(`skeleton_${name}`).style.display = 'inline'
+        //     document.getElementById(`skeleton_${name}`).style.display = 'inline'
+        //     setTimeout(() => {
+        //         const homeSle = document.getElementById('skeleton_about');
+        //         if (homeSle) {
+        //             homeSle.remove()
+        //         }
+        //     }, 1000)
+
+
+        // }
+        getData() {
             setTimeout(() => {
-                const homeSle = document.getElementById('skeleton_about');
-                if (homeSle) {
-                    homeSle.remove()
-                }
-            }, 1000)
+                console.log('数据')
 
-
+            }, 2000)
         }
     },
     created() {
         setSkeleton('about', about, this)
+        removeSkeleton('about', 1000)
         // this.setSkeleton('about')
         
     },

@@ -236,7 +236,9 @@ class SkeletonCore {
         // so don't need to use another mimifier.
         const h5Meta = `<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width"/>`;
         cleanedHtml = cleanedHtml.replace('id="app"', '')
+        cleanedHtml = cleanedHtml.replace(/data-v-/g, 'data-v-skeleton')
         finalCss = finalCss.replace('#app', `#skeleton_${name}` )
+        finalCss = finalCss.replace(/data-v-/g, 'data-v-skeleton')
         let shellHtmlHome = `<!DOCTYPE html>
             <html lang="en">
             

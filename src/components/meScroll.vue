@@ -16,11 +16,16 @@ export default {
         MescrollVue
     },
     props: {
+       
         // 是否启用加载
-        use: {
+        upUse: {
             type: Boolean,
             default: true
-        }, 
+        },
+        downUse: {
+            type: Boolean,
+            default: false
+        },
         // 分页数
         pageSize: {
             type: Number,
@@ -31,7 +36,7 @@ export default {
         return {
             mescroll: null, // mescroll实例对象
             mescrollUp: {
-                use: this.use,
+                use: this.upUse,
                 onScroll: this.onScroll,
                 callback: this.upCallback, // 上拉回调,此处可简写; 相当于 callback: function (page, mescroll) { getListData(page); }
                 page: {
@@ -67,7 +72,7 @@ export default {
 
             },
             mescrollDown: {
-                use: this.use,
+                use: this.downUse,
                 callback: this.downCallback,
             },
             dataList: [], // 列表数据

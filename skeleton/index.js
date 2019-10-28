@@ -26,7 +26,7 @@ let skeletonBuilder = new SkeletonBuilder({
     const skeletonPath = './src/assets/skeleton.js' // 骨架屏 除首页外 生成的 js文件路径
     const indexHtml = `./public/index.html` // webpack 引入html
         
-    const baseUrl = 'http://172.17.35.98:8082/#/'
+    const baseUrl = 'http://192.168.1.166:8082/#/'
     const urlList = ['home', 'about']
        
 
@@ -36,7 +36,7 @@ let skeletonBuilder = new SkeletonBuilder({
        
     let json = {}
       
-    urlList.forEach(async (res, i) => {
+    urlList.forEach(async res => {
             
         const result = await skeletonBuilder.build(baseUrl + res, res, detailPath);
         console.log('成功');

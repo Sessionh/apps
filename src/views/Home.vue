@@ -18,7 +18,7 @@
         <meSwiper class="me-swiper" :height="247/$store.state.rem"  :imageListDel="swiperList" :loop="false" :loopTime="loopTime" v-model="pops"></meSwiper>
         <menuType class="menuType"></menuType>
         <div class="show-foot">
-            <div class="foot-item" v-for="item in app.result.header.noteTags" :key="item.id" :style="{backgroundColor: item.backgroundColor}">
+            <div class="foot-item" v-for="item in app.result.header.show_meals" :key="item.id" :style="{backgroundColor: item.backgroundColor}">
                 <div class="top-title">
                     <div class="title">
                         {{item.name}}
@@ -373,7 +373,7 @@ export default {
 
         .hot_activity {
             .title {
-                padding: rem(45) rem(26) rem(37) rem(26);
+                padding: rem(25) rem(26) rem(37) rem(26);
                 display: flex;
                 align-items: center;
                 .left-hot {

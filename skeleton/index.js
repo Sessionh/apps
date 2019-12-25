@@ -1,6 +1,6 @@
 const SkeletonBuilder = require('./skeletonCore');
-// const execPath = 'C:/Users/11974/AppData/Local/Google/Chrome/Application/chrome.exe'; // chrome 路径 
-const execPath = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe'
+const execPath = 'C:/Users/11974/AppData/Local/Google/Chrome/Application/chrome.exe'; // chrome 路径 
+// const execPath = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe'
 
 // test code
 const fs = require('fs');

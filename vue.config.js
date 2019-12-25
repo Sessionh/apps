@@ -1,16 +1,16 @@
 // vue.config.js
 const path = require('path');
-const host = '192.168.1.166';
+// const host = '192.168.1.166';
 const url = 'http://api.douguo.net';
 
 
 module.exports = {
     publicPath: './',
     devServer: {
-        port: 8082,
+        port: 8089,
         // host: host,
         proxy: {
-            '/personalized/': {
+            'personalized/': {
                 target: url,
                 changeOrigin: true,
             },

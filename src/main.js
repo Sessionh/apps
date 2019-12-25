@@ -13,7 +13,11 @@ const service = axios.create({
     // baseURL: 'http://api.douguo.net/',
     timeout: 6000,
     withCredentials:true,
-    headers: {'app-state': 1}
+    headers: {
+        'Access-Control-Allow-Origin': '*',
+        // 'Accept-Encoding': 'gzip,deflate',
+        'Content-Type': 'application/x-www-form-urlencoded',
+    }
    
 })
 Vue.prototype.$http = service;
